@@ -10,9 +10,6 @@
 </p>
 
 
-<h2>Prerequisites</h2>
-
-- <a href="https://github.com/ncgriffin/ad-azuresetup"> On-premises Active Directory Deployed in the Cloud </a>
 
 
 
