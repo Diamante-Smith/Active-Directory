@@ -23,6 +23,44 @@
 
 - Windows Server 2022
 - Windows 10 (21H2)
+- macOS 
+
+
+<h2>Creating Our Resources & Virtual Machines </h2> 
+<br>
+
+<h3>&#9312; Create The Resource Group</h3>
+
+  <img width="386" alt="1" src="https://github.com/user-attachments/assets/59fd6633-f347-40e5-aeb2-0b1b92fd5acc">
+  <br>
+  
+- Go to https://portal.azure.com/#home to get started
+  
+- Once you are there click on/ search Resource Groups and afterward click on create
+  
+- For me, I named mine RG-LAB-02 as this was my second lab and for the region since i'm located in the Eastcoast East US 2 worked out for me
+  
+  <br><br>
+
+  
+<h3>&#9313; Create The Virtual Machine With The Virtual Network</h3>
+
+
+- Here is the created resource group
+  
+<img width="1183" alt="2" src="https://github.com/user-attachments/assets/1ab43f3c-0c42-4dee-abcc-f9c058182d35">
+ <br><br>
+
+<img width="798" alt="1" src="https://github.com/user-attachments/assets/5ddb11be-cd6b-403c-988a-e02c7f887d40">
+
+<br>
+
+- Search for Virtual Machines and hit create 
+
+- Select your resource group, for the virtual machine name I just made it VM1
+  
+- Selected my region, for availability options set that to "No infrastructure redundancy required", Security type standard, and finally image Windows 10 Pro, version 22H2 x64 Gen2
+
 
 
 <h2>Configuration Steps</h2>
