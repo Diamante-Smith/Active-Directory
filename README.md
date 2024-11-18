@@ -57,7 +57,7 @@
 
 - Search for Virtual Machines and hit create 
 
-- Select your resource group, for the virtual machine name I just made it VM1
+- Select your resource group, for the virtual machine name I just made it DC-1
   
 - Selected my region, for availability options set that to "No infrastructure redundancy required", Security type standard, and finally image Windows 10 Pro, version 22H2 x64 Gen2
 
