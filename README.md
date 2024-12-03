@@ -38,7 +38,7 @@
   
 - Once you are there click on/ search Resource Groups and afterward click on create
   
-- For me, I named mine RG-LAB-02 as this was my second lab and for the region since i'm located in the Eastcoast East US 2 worked out for me
+- For me, I named mine Active Directory Lab aand for the region since i'm located in the Eastcoast East US 2 worked out for me
   
   <br><br>
 
