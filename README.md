@@ -26,24 +26,40 @@
 - macOS 
 
 
-<h2>Creating Our Resources & Virtual Machines </h2> 
+<h2>Creating Our Resource, Network, & Virtual Machines </h2> 
 <br>
 
 <h3>&#9312; Create The Resource Group</h3>
 
-  <img width="386" alt="1" src="https://github.com/user-attachments/assets/59fd6633-f347-40e5-aeb2-0b1b92fd5acc">
+  <img width="348" alt="0" src="https://github.com/user-attachments/assets/6c7e9a17-44eb-44f1-a383-abb8bf2a97b0">
+
   <br>
   
 - Go to https://portal.azure.com/#home to get started
   
 - Once you are there click on/ search Resource Groups and afterward click on create
   
-- For me, I named mine Active Directory Lab aand for the region since i'm located in the Eastcoast East US 2 worked out for me
+- For me, I named mine Active-Directory-Lab, and for the region, since I'm located in the Eastcoast East US 2 worked out for me
+
+- Create the resource group once you receive the Validation passed green check mark
   
   <br><br>
 
+<h3>&#9313; Create the Virtual Network</h3>
+
+<img width="410" alt="0A" src="https://github.com/user-attachments/assets/5dbe7a9b-87a0-4c3f-a73f-5e85faaf0e47">
+
+<br>
+- For this new step we will be creating the virtual network instead of having the virtual machine do it for us
+
+- Search for Virtual Networks then hit create 
+
+- Put it in your resource Group that we made, this one will be named Active-Directory-VNet
+
+- select your region, once you hit review and create hit create
+
   
-<h3>&#9313; Create The Virtual Machine With The Virtual Network</h3>
+<h3>&#9313; Create The Virtual Machine</h3>
 
 
 - Here is the created resource group
