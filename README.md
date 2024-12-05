@@ -71,8 +71,16 @@
 
 - Select your resource group, for the virtual machine name I just made it DC-1
   
-- Selected my region, for availability options leave that at , Security type standard, and finally image Windows Server 2022 Datacenter Azure Edition
+- Selected my region, for availability options I left that at Availability Zone with Self-selected zone also bubbled, for the rest just put in exactly what I have displayed and finally the image selected for this virtual machine is Windows Server 2022 Datacenter Azure Edition - x64 Gen 2
+  <br>
+  
+<img width="545" alt="1A" src="https://github.com/user-attachments/assets/b3585c30-9b36-410e-b2c8-76b6c8fc3bb4">
 
+- When it comes to the size make sure you have at least 2 VCPUs, for the username and password make sure you have it written down in your notes
+
+<img width="554" alt="1B" src="https://github.com/user-attachments/assets/8506c85c-be52-4ff6-b380-99c1d316bd8c">
+
+- Checkmark the licensing agreement
 
 
 <h2>Configuration Steps</h2>
