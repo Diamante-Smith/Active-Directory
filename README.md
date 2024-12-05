@@ -60,9 +60,10 @@
 - select your region, once you hit review and create hit create
 
   
-<h3>&#9313; Create The Virtual Machine</h3>
+<h3>&#9313; Create The Virtual Machines</h3>
 
-<img width="798" alt="1" src="https://github.com/user-attachments/assets/5ddb11be-cd6b-403c-988a-e02c7f887d40">
+<img width="558" alt="1" src="https://github.com/user-attachments/assets/fa689f9f-99ff-4d91-86ac-0be9625dc3f5">
+
 
 <br>
 
@@ -70,7 +71,7 @@
 
 - Select your resource group, for the virtual machine name I just made it DC-1
   
-- Selected my region, for availability options set that to "No infrastructure redundancy required", Security type standard, and finally image Windows Server 2022 Datacenter Azure Edition
+- Selected my region, for availability options leave that at , Security type standard, and finally image Windows Server 2022 Datacenter Azure Edition
 
 
 
