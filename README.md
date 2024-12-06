@@ -60,7 +60,7 @@
 - select your region, once you hit review and create hit create
 
   
-<h3>&#9313; Create The Virtual Machines</h3>
+<h3>&#9313; Please proceed with the creation of the virtual machines, beginning with DC-1</h3>
 
 <img width="558" alt="1" src="https://github.com/user-attachments/assets/fa689f9f-99ff-4d91-86ac-0be9625dc3f5">
 
@@ -71,8 +71,7 @@
 
 - Select your resource group, for the virtual machine name I just made it DC-1
   
-- Selected my region, for availability options I left that at Availability Zone with Self-selected zone also bubbled, for the rest just put in exactly what I have displayed and finally the image selected for this virtual machine is Windows Server 2022 Datacenter Azure Edition - x64 Gen 2
-  <br>
+- I have selected my region and configured the availability options to "Availability Zone," ensuring that "Self-Selected Zone" is also marked. For all other settings, I have retained the options as displayed. Furthermore, I have chosen the image for this virtual machine as "Windows Server 2022 Datacenter Azure Edition - x64 Gen 2."
   
 <img width="545" alt="1A" src="https://github.com/user-attachments/assets/b3585c30-9b36-410e-b2c8-76b6c8fc3bb4">
 
@@ -83,9 +82,17 @@
 - Checkmark both of the licensing agreements shown and next click on Networking
 
   <img width="556" alt="1C" src="https://github.com/user-attachments/assets/2fb1fb90-1a66-4952-9346-943647be0548">
+  
   <br>
   
-  - For the virtual network option make sure that you select the Virtual Network that we made and leave everything else as its defaults, hit review and create and then create, once that is finished we will make our next virtual Machine which is Client 1
+- When configuring the virtual network option, please ensure that you select the Virtual Network that has been established. It is advisable to retain all other settings at their default values. After confirming these selections, click on "Review + Create," followed by "Create." Upon completion of this process, we will proceed to create the subsequent virtual machine, designated as Client 1.
+
+<h3>&#9313; Set up the virtual machine named Client-1 /h3>
+<br>
+  
+<img width="551" alt="2" src="https://github.com/user-attachments/assets/0a1cb73f-08da-4ec7-8ab1-c315c39e7eb3">
+
+- For this one 
 
 
 
