@@ -60,7 +60,7 @@
 - select your region, once you hit review and create hit create
 
   
-<h3>&#9313; Please proceed with the creation of the virtual machines, beginning with DC-1</h3>
+<h3>&#9314; Please proceed with the creation of the virtual machines, beginning with DC-1</h3>
 
 <img width="558" alt="1" src="https://github.com/user-attachments/assets/fa689f9f-99ff-4d91-86ac-0be9625dc3f5">
 
@@ -69,17 +69,23 @@
 
 - Search for Virtual Machines and hit create 
 
-- Select your resource group, for the virtual machine name I just made it DC-1
+- Please select your designated resource group. For the name of the virtual machine, I have chosen "DC-1."
   
 - I have selected my region and configured the availability options to "Availability Zone," ensuring that "Self-Selected Zone" is also marked. For all other settings, I have retained the options as displayed. Furthermore, I have chosen the image for this virtual machine as "Windows Server 2022 Datacenter Azure Edition - x64 Gen 2."
   
 <img width="545" alt="1A" src="https://github.com/user-attachments/assets/b3585c30-9b36-410e-b2c8-76b6c8fc3bb4">
 
-- When it comes to the size make sure you have at least 2 VCPUs, for the username and password make sure you have it written down in your notes
+<br>
+
+- When determining the appropriate size, it is essential to ensure that there are a minimum of 2 virtual CPUs (VCPUs) allocated. Additionally, it is advisable to document your username and password in a secure location for future reference.
+
+  <br>
 
 <img width="554" alt="1B" src="https://github.com/user-attachments/assets/8506c85c-be52-4ff6-b380-99c1d316bd8c">
 
-- Checkmark both of the licensing agreements shown and next click on Networking
+<br>
+
+- Please ensure that both of the licensing agreements presented are checked, and then proceed by selecting the Networking option.
 
   <img width="556" alt="1C" src="https://github.com/user-attachments/assets/2fb1fb90-1a66-4952-9346-943647be0548">
   
@@ -87,12 +93,34 @@
   
 - When configuring the virtual network option, please ensure that you select the Virtual Network that has been established. It is advisable to retain all other settings at their default values. After confirming these selections, click on "Review + Create," followed by "Create." Upon completion of this process, we will proceed to create the subsequent virtual machine, designated as Client 1.
 
-<h3>&#9313; Set up the virtual machine named Client-1 /h3>
+<h3>&#9315; Set up the virtual machine named Client-1 </h3>
+
 <br>
   
 <img width="551" alt="2" src="https://github.com/user-attachments/assets/0a1cb73f-08da-4ec7-8ab1-c315c39e7eb3">
 
-- For this one 
+<br>
+
+- The virtual machine will be designated as "Client-1"
+
+- We will be using Windows 10 Pro, Version 22H2 - x64 Gen 2 for the image.
+
+  <img width="552" alt="3" src="https://github.com/user-attachments/assets/df842a56-0c16-4278-8404-2550690f59c5">
+
+  <br>
+
+  <img width="557" alt="4" src="https://github.com/user-attachments/assets/183db735-7a52-4d52-8c82-59253e9c8358">
+
+  <br>
+
+  <img width="1274" alt="4A" src="https://github.com/user-attachments/assets/a4fde97d-0d0c-4c2c-a518-78ba07d70d88">
+
+  <br>
+
+
+  
+
+
 
 
 
