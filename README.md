@@ -80,7 +80,13 @@
 
 <img width="554" alt="1B" src="https://github.com/user-attachments/assets/8506c85c-be52-4ff6-b380-99c1d316bd8c">
 
-- Checkmark the licensing agreement
+- Checkmark both of the licensing agreements shown and next click on Networking
+
+  <img width="556" alt="1C" src="https://github.com/user-attachments/assets/2fb1fb90-1a66-4952-9346-943647be0548">
+  <br>
+  
+  - For the virtual network option make sure that you select the Virtual Network that we made and leave everything else as its defaults, hit review and create and then create, once that is finished we will make our next virtual Machine which is Client 1
+
 
 
 <h2>Configuration Steps</h2>
