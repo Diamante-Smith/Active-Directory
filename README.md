@@ -111,23 +111,28 @@
   <br>
 
   <img width="552" alt="3" src="https://github.com/user-attachments/assets/df842a56-0c16-4278-8404-2550690f59c5">
+  <br>
 
-  - Make sure the size has at least 2 vcpus, and write down the username 
+- Make sure the size has at least 2 vcpus, and write down the username 
  and password for this virtual machine as well
 
   <br>
 
   <img width="557" alt="4" src="https://github.com/user-attachments/assets/183db735-7a52-4d52-8c82-59253e9c8358">
+  
+  <br>
 
-  - Heading over to Networking we will place this Virtual Machine in the Active-Directory-VNet that we made
+- Heading over to Networking we will place this Virtual Machine in the Active-Directory-VNet that we made
  
-  - Leave the rest to its defaults and click on "Review + Create," followed by "Create"
+- Leave the rest to its defaults and click on "Review + Create," followed by "Create"
 
   <br>
 
   <img width="1274" alt="4A" src="https://github.com/user-attachments/assets/a4fde97d-0d0c-4c2c-a518-78ba07d70d88">
 
-  - Here are the 2 Virtual machines that we will be using for the rest of this project
+  <br>
+
+- Here are the 2 Virtual machines that we will be using for the rest of this project
 
   <br>
 
