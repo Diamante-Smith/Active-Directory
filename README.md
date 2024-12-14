@@ -136,9 +136,29 @@
 
   <br>
 
-<h3>&#9312; Change DC-1's Nic Private IP address to be static</h3>
+<h3>&#9316; Change DC-1's Nic Private IP address to be static</h3>
 
-- We will begin by going to 
+<br>
+
+<img width="1486" alt="5" src="https://github.com/user-attachments/assets/fd555109-48a1-4e0e-8ba9-796d9f6f6582" />
+
+- We will begin by going to the virtual machine dc-1 and going to the network settings
+
+- Click on the Network interface card for dc-1 
+<br>
+
+<img width="1325" alt="6" src="https://github.com/user-attachments/assets/40354938-12eb-4927-9693-6559be383ce2" />
+
+<br>
+
+<img width="505" alt="7" src="https://github.com/user-attachments/assets/9cb9dee8-084d-4824-9912-10be5239f355" />
+
+<br>
+
+
+
+
+
 
 
 
