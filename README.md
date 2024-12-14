@@ -136,7 +136,9 @@
 
   <br>
 
+<h3>&#9312; Change DC-1's Nic Private IP address to be static</h3>
 
+- We will begin by going to 
 
 
 
