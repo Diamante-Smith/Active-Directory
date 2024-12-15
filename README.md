@@ -140,9 +140,9 @@
 
 <br>
 
-<img width="1486" alt="5" src="https://github.com/user-attachments/assets/fd555109-48a1-4e0e-8ba9-796d9f6f6582" />
-
 - We will begin by going to the virtual machine dc-1 and going to the network settings
+
+<img width="1486" alt="5" src="https://github.com/user-attachments/assets/fd555109-48a1-4e0e-8ba9-796d9f6f6582" />
 
 - Click on the Network interface card for dc-1 
 <br>
@@ -151,10 +151,17 @@
 
 <br>
 
+- Click on ipconfig in order to alter this to Static instead of dynamic
+
 <img width="505" alt="7" src="https://github.com/user-attachments/assets/9cb9dee8-084d-4824-9912-10be5239f355" />
 
 <br>
 
+- Under Private IP address settings instead of dynamic click on static and save this
+
+- Once you save this head back into sc-1's network settings
+
+- The Private IP address should no longer change regardless how many times the virtual machine is restored
 
 
 
