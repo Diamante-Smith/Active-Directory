@@ -159,9 +159,13 @@
 
 - Under Private IP address settings instead of dynamic click on static and save this
 
-- Once you save this head back into sc-1's network settings
+- Once you save this head back into dc-1's network settings
 
-- The Private IP address should no longer change regardless how many times the virtual machine is restored
+- The Private IP address should no longer change regardless of how many times the virtual machine is restored
+
+  <br>
+
+  <h3>&#9315;Connect to Virtual Machine </h3>
 
 
 
