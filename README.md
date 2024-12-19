@@ -165,7 +165,7 @@
 
   <br>
 
-  <h3>&#9317;Connect to DC-1</h3>
+<h3>&#9317; Connect to DC-1</h3>
 
 - (insert pic 12:21)
   
@@ -175,7 +175,7 @@
 
 - Once connected and loaded if you don’t have Server Manager pop up at the start then you logged in to the wrong virtual machine or created the wrong type
 
-  <br>
+<br>
 
 <img width="1046" alt="8" src="https://github.com/user-attachments/assets/c16c4619-f998-493a-8177-e550011100b4" />
 
