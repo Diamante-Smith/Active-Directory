@@ -173,6 +173,12 @@
 
 - Open Microsoft Remote Desktop --> name it dc-1 ---> paste the public IP address in the PC name ---> press add to connect (if needed put in the username and password u made to connect)
 
+<br>
+
+<img width="1676" alt="12" src="https://github.com/user-attachments/assets/a1fafc6e-e3af-441a-af58-bd18ac2b7a8e" />
+
+<br>
+
 - Once connected and loaded if you don’t have Server Manager pop up at the start then you logged in to the wrong virtual machine or created the wrong type
 
 <br>
@@ -181,7 +187,17 @@
 
 <br>
 
--
+(insert pic 13:34)
+
+- In the domain controller right click the start menu and press run, type wf.msc this is for Windows firewall
+
+(insert pic 13:40)
+
+- In the firewall, we are going to disable it so click on Windows Defender Firewall Properties ---> hit the off option for the Firewall state on every profile ---> hit apply then OK
+
+- After that, the firewall should be off
+
+14:34
 
 
 
