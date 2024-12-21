@@ -179,6 +179,9 @@
 
 <br>
 
+<h3>&#9317; Turn the firewall off for DC-1</h3>
+
+
 - Once connected and loaded if you don’t have Server Manager pop up at the start then you logged in to the wrong virtual machine or created the wrong type
 
 <br>
