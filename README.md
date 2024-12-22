@@ -134,9 +134,10 @@
 
 - Here are the 2 Virtual machines that we will be using for the rest of this project
 
+<h2> Configuration Steps</h2>
   <br>
 
-<h3>&#9316; Change DC-1's Nic Private IP address to be static</h3>
+<h3>&#9312; Change DC-1's Nic Private IP address to be static</h3>
 
 <br>
 
@@ -165,7 +166,7 @@
 
   <br>
 
-<h3>&#9317; Connect to DC-1</h3>
+<h3>&#9313; Connect to DC-1</h3>
 
 - (insert pic 12:21)
   
@@ -179,12 +180,14 @@
 
 <br>
 
-<h3>&#9317; Turn the firewall off for DC-1</h3>
-
-
 - Once connected and loaded if you don’t have Server Manager pop up at the start then you logged in to the wrong virtual machine or created the wrong type
 
 <br>
+  
+
+<h3>&#9314; Turn the firewall off for DC-1</h3>
+
+
 
 <img width="1046" alt="8" src="https://github.com/user-attachments/assets/c16c4619-f998-493a-8177-e550011100b4" />
 
@@ -200,17 +203,22 @@
 
 - After that, the firewall should be off
 
-14:34
+<br>
+
+
+<h3>&#9315; Set Client-1's DNS settings to DC-1's Private IP address </h3>
+
+(insert pic 14:40)
+
+- First, get DC-1's Private IP address
+
+
+14:40
 
 
 
 
-
-
-
-
-
-<h2>Configuration Steps</h2>
+<h2> Configuration Steps Pt.2 </h2>
 
 <h3>&#9312; Install Active Directory in DC-1</h3>
 
