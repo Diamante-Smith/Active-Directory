@@ -145,6 +145,8 @@
 
 <img width="1486" alt="5" src="https://github.com/user-attachments/assets/fd555109-48a1-4e0e-8ba9-796d9f6f6582" />
 
+<br>
+
 - Click on the Network interface card for dc-1 
 <br>
 
@@ -152,7 +154,8 @@
 
 <br>
 
-- Click on ipconfig in order to alter this to Static instead of dynamic
+- Click on ipconfig to alter this to Static instead of dynamic
+<br>
 
 <img width="505" alt="7" src="https://github.com/user-attachments/assets/9cb9dee8-084d-4824-9912-10be5239f355" />
 
@@ -205,15 +208,18 @@
 
 <br>
 
-
 <h3>&#9315; Set Client-1's DNS settings to DC-1's Private IP address </h3>
 
-(insert pic 14:40)
+(insert pic 14:40)  (insert pic 15:01)
 
-- First, get DC-1's Private IP address
+- First back in the Azure portal get DC-1's Private IP address and copy it, then go to Client 1 --> Networking --> Network Settings and click on client 1's Virtual Network Interface Card
+
+(insert pic 15:35)
+
+- Click on DNS servers hit custom
 
 
-14:40
+
 
 
 
