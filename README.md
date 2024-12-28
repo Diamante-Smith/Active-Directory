@@ -216,7 +216,15 @@
 
 (insert pic 15:35)
 
-- Click on DNS servers hit custom
+- Click on DNS servers hit custom and then paste the IP address of DC-1 that you copied from the Azure portal
+
+- Whenever the computer needs to lookup anything like for instance Google.com, it will look to DC-1 for it
+
+- Doing this will allow us to join the domain
+
+- Hit Save
+
+- Go to your Virtual Machines in Azure and click the box next to Client-1 
 
 
 
