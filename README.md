@@ -224,7 +224,9 @@
 
 - Hit Save
 
-- Go to your Virtual Machines in Azure and click the box next to Client-1 
+- Go to your Virtual Machines in Azure and click the box next to Client-1 and press restart at the top
+
+- 
 
 
 
