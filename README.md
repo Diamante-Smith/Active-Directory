@@ -230,9 +230,21 @@
 
 (insert pic 17:15)
 
-- Click on Client 1 in Azure and copy its Public IP address
+- Click on Client 1 in Azure and copy its Public IP address 
 
--  
+(insert pic 17:25)
+
+- Then head on over to remote desktop to enter Client-1, we are going to name this Client 1 and make sure to put in your username and password that you wrote down
+
+- Head on over to DC-1 in Azure to get the private IP address
+
+(insert pic 18:24)
+
+- Login to Client-1 and Open up PowerShell
+
+(insert pic 18:24)
+
+- In PowerShell type ping and DC-1's private IP address and press enter
 
 
 
