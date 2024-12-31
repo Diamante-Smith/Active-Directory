@@ -224,9 +224,16 @@
 
 - Hit Save
 
-- Go to your Virtual Machines in Azure and click the box next to Client-1 and press restart at the top
+- Then go to your Virtual Machines in Azure click the box next to Client-1 and press restart at the top
 
-- 
+- From here we will attempt to log in to Client 1 and attempt to ping DC-1's private IP address
+
+(insert pic 17:15)
+
+- Click on Client 1 in Azure and copy its Public IP address
+
+-  
+
 
 
 
