@@ -266,6 +266,10 @@
 
 <h3>&#9312; Install Active Directory in DC-1</h3>
 
+<img width="1676" alt="12" src="https://github.com/user-attachments/assets/dc010b2f-170c-4fd3-8c1f-8a63bb7a29a4" />
+
+<br>
+
 - In the Server Manager dashboard, click 'Add Roles and Features' and continue the setup
 <img width="680" alt="AD-setup" src="https://imgur.com/cQnpkfN.png">
 
