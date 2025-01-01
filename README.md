@@ -246,6 +246,15 @@
 
 - In PowerShell type ping and DC-1's private IP address and press enter
 
+(insert pic 19:38)
+
+- Type in powershell ipconfig /all
+
+(insert pic 19:38)
+
+- Once that runs, on the DNS servers line you should see highlighted DC-1's private IP address
+
+- Client 1 should be using DC-1 as the DNS server
 
 
 
