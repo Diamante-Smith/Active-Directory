@@ -246,6 +246,8 @@
 
 - In PowerShell type ping and DC-1's private IP address and press enter
 
+- If the output says "Destination host unreachable," then they are probably in different virtual networks, or DC-1's firewall is probably still on, or ping is being blocked somehow.
+
 (insert pic 19:38)
 
 - Type in powershell ipconfig /all
@@ -254,7 +256,7 @@
 
 - Once that runs, on the DNS servers line you should see highlighted DC-1's private IP address
 
-- Client 1 should be using DC-1 as the DNS server
+- Now client 1 should be using DC-1 as the DNS server
 
 
 
