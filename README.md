@@ -250,7 +250,7 @@
 
 - Type in powershell ipconfig /all
 
-(insert pic 19:38)
+(insert pic 19:56)
 
 - Once that runs, on the DNS servers line you should see highlighted DC-1's private IP address
 
