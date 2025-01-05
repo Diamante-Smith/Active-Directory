@@ -39,7 +39,7 @@
   
 - Once you are there click on/ search Resource Groups and afterward click on create
   
-- For me, I named mine Active-Directory-Lab, and for the region, since I'm located in the Eastcoast East US 2 worked out
+- For me, I named mine Active-Directory-Lab, and for the region, since I'm located in the Eastcoast, East US 2 worked out
 
 - Create the resource group once you receive the Validation passed green check mark
   
@@ -134,7 +134,7 @@
 
 - Here are the 2 Virtual machines that we will be using for the rest of this project
 
-<h2> Configuration Steps</h2>
+<h1> Configuration Steps</h1>
   <br>
 
 <h3>&#9312; Change DC-1's Nic Private IP address to be static</h3>
@@ -212,7 +212,7 @@
 
 (insert pic 14:40)  (insert pic 15:01)
 
-- First back in the Azure portal get DC-1's Private IP address and copy it, then go to Client 1 --> Networking --> Network Settings and click on client 1's Virtual Network Interface Card
+- First back in the Azure portal get DC-1's Private IP address and copy it, then go to Client 1 --> Networking --> Network Settings and click on Client 1's Virtual Network Interface Card
 
 (insert pic 15:35)
 
@@ -234,7 +234,7 @@
 
 (insert pic 17:25)
 
-- Then head on over to remote desktop to enter Client-1, we are going to name this Client 1 and make sure to put in your username and password that you wrote down
+- Then head on over to remote desktop to enter Client-1, we are going to name this Client 1, and make sure to put in your username and password that you wrote down
 
 - Head on over to DC-1 in Azure to get the private IP address
 
@@ -250,11 +250,11 @@
 
 (insert pic 19:38)
 
-- Type in powershell ipconfig /all
+- Type in PowerShell ipconfig /all
 
 (insert pic 19:56)
 
-- Once that runs, on the DNS servers line you should see highlighted DC-1's private IP address
+- Upon execution, the line pertaining to the DNS servers should display the private IP address of DC-1 in a highlighted manner.
 
 - Now client 1 should be using DC-1 as the DNS server
 
@@ -264,20 +264,28 @@
 
 
 
-<h2> Configuration Steps Pt.2 </h2>
+<h1> Configuration Steps Pt.2 </h1>
+
 
 <h3>&#9312; Install Active Directory in DC-1</h3>
+
+<br>
 
 <img width="1676" alt="12" src="https://github.com/user-attachments/assets/dc010b2f-170c-4fd3-8c1f-8a63bb7a29a4" />
 
 <br>
 
+
 - In the Server Manager dashboard, click 'Add Roles and Features' and continue the setup
+
+<br>
+
+- 
 <img width="680" alt="AD-setup" src="https://imgur.com/cQnpkfN.png">
 
-<p>
+<br>
 
-</p>
+- 
 
 <p><strong> Select Active Directory Domain Services and finish the installation </strong> </p>
 <p>
