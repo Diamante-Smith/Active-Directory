@@ -26,7 +26,7 @@
 - macOS 
 
 
-<h2>Creating Our Resource, Network, & Virtual Machines </h2> 
+<h1>Creating Our Resource, Network, & Virtual Machines </h1> 
 <br>
 
 <h3>&#9312; Create The Resource Group</h3>
