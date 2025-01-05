@@ -264,7 +264,7 @@
 
 
 
-<h1> Configuration Steps Pt.2 </h1>
+<h1> Configuration Steps Pt. 2 </h1>
 
 <br>
 
