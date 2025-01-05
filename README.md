@@ -276,7 +276,7 @@
 (insert pic 2:56)
 <br> 
 
-- To make sure which virtual machine you are in see if the Microsoft store is located below in the taskbar if so that would be Windows 10
+- To make sure which virtual machine you are in see if the Microsoft store is located below in the taskbar if so that would be Windows 10 which is not DC-1
 
 - Another way is going into your system settings and looking at the operating system
 
