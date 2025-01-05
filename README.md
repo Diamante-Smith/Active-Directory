@@ -273,16 +273,21 @@
 
 <br>
 
-<img width="1676" alt="12" src="https://github.com/user-attachments/assets/dc010b2f-170c-4fd3-8c1f-8a63bb7a29a4" />
-
-<br>
-<br>
+(insert pic 2:56)
+<br> 
 
 - To make sure which virtual machine you are in see if the Microsoft store is located below in the taskbar if so that would be Windows 10
 
 - Another way is going into your system settings and looking at the operating system
 
 - Please navigate to the search bar located below and enter "Server Manager" if it is not displayed in the Start menu.
+
+<br>
+
+<img width="1676" alt="12" src="https://github.com/user-attachments/assets/dc010b2f-170c-4fd3-8c1f-8a63bb7a29a4" />
+
+<br>
+<br>
 
 - In the Server Manager dashboard, click 'Add Roles and Features' and continue the setup
 
