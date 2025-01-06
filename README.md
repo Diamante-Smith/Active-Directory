@@ -293,7 +293,13 @@
 
 <br>
 
-- 
+- You’re going to click on "Next" mostly throughout the setup
+
+- For Server Selection, there should only be 1 which is DC-1
+
+- In Server Roles check mark Active Directory Domain Services --> hit add features
+
+  (3:42) 
 <img width="680" alt="AD-setup" src="https://imgur.com/cQnpkfN.png">
 
 <br>
