@@ -295,33 +295,41 @@
 
 - You’re going to click on "Next" mostly throughout the setup
 
+  (insert pic 3:14)
+
 - For Server Selection, there should only be 1 which is DC-1
 
-- In Server Roles check mark Active Directory Domain Services --> hit add features
 
-  (3:42) 
+<img width="774" alt="14" src="https://github.com/user-attachments/assets/9f9e56d2-a6bf-4bdb-a4c2-0eaf2402862a" />
 <img width="680" alt="AD-setup" src="https://imgur.com/cQnpkfN.png">
+
+
 
 <br>
 
-- 
+- In Server Roles check mark Active Directory Domain Services --> hit add features
 
-<p><strong> Select Active Directory Domain Services and finish the installation </strong> </p>
-<p>
-</p>
+- Then hit Next, Check mark "Restart the destination server automatically if required" --> click YES --> press Install
+
+- After the installation hit close
+
 
 <h3>&#9313; Promote DC-1 to Domain Controller </h3>
 
-- Once the installation is done, notice the flag on the Server Manager
-- Click on the flag and promote DC-1 to Domain Controller
+- Once the installation is done, notice the flag on the Server Manager at the top right
+- Click on the flag and press the highlighted text "promote this server a.k.a DC-1 to Domain Controller"
 
 <img width="350" alt="notif" src="https://imgur.com/4W04gBQ.png">
 
 
 
 -  Next, we will select 'Add a new forest' and set the Root domain name to “mydomain.com”
-<p>
-<img width="565" alt="my domain" src="https://imgur.com/ovGgm26.png"> </p>
+
+-  Hit Next, where it says "Directory Services Restore Mode (DSRM) password"  Just put in a password that you can remember and confirm it
+
+  5:18
+
+<img width="565" alt="my domain" src="https://imgur.com/ovGgm26.png"> 
   
 - Finish setup and restart DC-1
 - Log back into Remote Desktop with your username credentials following with "@mydomain.com" 
