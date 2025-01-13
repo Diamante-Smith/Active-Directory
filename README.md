@@ -376,13 +376,23 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - You’re going to click on "Next" mostly throughout the setup
 
-  (insert pic 3:14)
+<br>
+
+<img width="789" alt="Screenshot 2025-01-13 at 3 16 40 PM" src="https://github.com/user-attachments/assets/f352a00e-0c5b-43ff-970e-cfd2149d9a2e" />
+<br>
+<img width="787" alt="Screenshot 2025-01-13 at 3 16 58 PM" src="https://github.com/user-attachments/assets/c07f0d3d-7bf2-441a-b082-ae30e729732b" />
+<br>
+
+
+
+
+
 
 - For Server Selection, there should only be 1 which is DC-1
 
 
 <img width="774" alt="14" src="https://github.com/user-attachments/assets/9f9e56d2-a6bf-4bdb-a4c2-0eaf2402862a" />
-<img width="680" alt="AD-setup" src="https://imgur.com/cQnpkfN.png">
+
 
 
 
@@ -390,9 +400,34 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - In Server Roles check mark Active Directory Domain Services --> hit add features
 
+<img width="413" alt="Screenshot 2025-01-13 at 3 17 23 PM" src="https://github.com/user-attachments/assets/c7b67da3-1b64-4ae8-8d4e-fcd0c964f006" />
+
+<br>
+
+<img width="245" alt="Screenshot 2025-01-13 at 3 17 43 PM" src="https://github.com/user-attachments/assets/9a51261e-a992-44ed-b3ea-a5c71ee075a6" />
+
+<br>
+<img width="785" alt="Screenshot 2025-01-13 at 3 18 07 PM" src="https://github.com/user-attachments/assets/808961aa-ebac-485d-8275-efe980164163" />
+<br>
+<img width="785" alt="Screenshot 2025-01-13 at 3 18 20 PM" src="https://github.com/user-attachments/assets/10f49db8-47fa-4001-b3dc-c35bdbfa6853" />
+<br>
+
+
+
+
 - Then hit Next, Check mark "Restart the destination server automatically if required" --> click YES --> press Install
+<br>
+
+<img width="786" alt="Screenshot 2025-01-13 at 3 18 45 PM" src="https://github.com/user-attachments/assets/ceb86aae-889c-4cd7-a0e6-f34df75f3834" />
+<br>
+
 
 - After the installation hit close
+<br>
+
+<img width="783" alt="Screenshot 2025-01-13 at 3 25 46 PM" src="https://github.com/user-attachments/assets/26f433be-1e43-4ecb-b777-97dcc14e1622" />
+<br>
+
 
 
 <h3>&#9313; Promote DC-1 to Domain Controller </h3>
