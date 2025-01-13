@@ -7,7 +7,7 @@
 
 <p>This project provides a comprehensive guide to deploying and configuring Active Directory on a designated Domain Controller (DC-1) virtual machine. It includes steps to install Active Directory, promote the server to a Domain Controller, create user accounts, and join a client machine (Client-1) to the domain. The tutorial also covers configuring Remote Desktop access for non-administrative users, ensuring a secure and functional Active Directory environment within Azure.
 
-</p>
+
 
 
 
@@ -79,7 +79,7 @@
 
 - When determining the appropriate size, it is essential to ensure that there are a minimum of 2 virtual CPUs (VCPUs) allocated. Additionally, it is advisable to document your username and password in a secure location for future reference
 
-  <br>
+<br>
 
 <img width="554" alt="1B" src="https://github.com/user-attachments/assets/8506c85c-be52-4ff6-b380-99c1d316bd8c">
 
@@ -87,11 +87,11 @@
 
 - Please ensure that both of the licensing agreements presented are checked, and then proceed by selecting the Networking option
   
-  <br>
+<br>
 
 <img width="556" alt="1C" src="https://github.com/user-attachments/assets/2fb1fb90-1a66-4952-9346-943647be0548">
   
-  <br>
+<br>
   
 - When configuring the virtual network option, please ensure that you select the Virtual Network that has been established, It is advisable to retain all other settings at their default values, After confirming these selections, click on "Review + Create," followed by "Create" Upon completion of this process, we will proceed to create the subsequent virtual machine, designated as Client 1
 
@@ -109,30 +109,30 @@
 
 - We will be using Windows 10 Pro, Version 22H2 - x64 Gen 2 for the image
 
-  <br>
+<br>
 
 <img width="552" alt="3" src="https://github.com/user-attachments/assets/df842a56-0c16-4278-8404-2550690f59c5">
   
-  <br>
+<br>
 
 - Make sure the size has at least 2 vcpus, and write down the username 
  and password for this virtual machine as well
 
-  <br>
+<br>
 
 <img width="557" alt="4" src="https://github.com/user-attachments/assets/183db735-7a52-4d52-8c82-59253e9c8358">
   
-  <br>
+<br>
 
 - Heading over to Networking we will place this Virtual Machine in the Active-Directory-VNet that we made
  
 - Leave the rest to its defaults and click on "Review + Create," followed by "Create"
 
-  <br>
+<br>
 
 <img width="1274" alt="4A" src="https://github.com/user-attachments/assets/a4fde97d-0d0c-4c2c-a518-78ba07d70d88">
 
-  <br>
+<br>
 
 - Here are the 2 Virtual machines that we will be using for the rest of this project
 
