@@ -5,7 +5,7 @@
 <h1>Active Directory Deployment and Configuration </h1>
 
 
-<p>This project provides a comprehensive guide to deploying and configuring Active Directory on a designated Domain Controller (DC-1) virtual machine. It includes steps to install Active Directory, promote the server to a Domain Controller, create user accounts, and join a client machine (Client-1) to the domain. The tutorial also covers configuring Remote Desktop access for non-administrative users, ensuring a secure and functional Active Directory environment within Azure.
+This project provides a comprehensive guide to deploying and configuring Active Directory on a designated Domain Controller (DC-1) virtual machine. It includes steps to install Active Directory, promote the server to a Domain Controller, create user accounts, and join a client machine (Client-1) to the domain. The tutorial also covers configuring Remote Desktop access for non-administrative users, ensuring a secure and functional Active Directory environment within Azure.
 
 
 
@@ -34,7 +34,7 @@
 
 <img width="348" alt="0" src="https://github.com/user-attachments/assets/6c7e9a17-44eb-44f1-a383-abb8bf2a97b0">
 
-  <br>
+<br>
   
 - Go to https://portal.azure.com/#home to get started
   
@@ -44,7 +44,7 @@
 
 - Create the resource group once you receive the Validation passed green check mark
   
-  <br><br>
+<br>
 
 <h3>&#9313; Create the Virtual Network</h3>
 
@@ -59,6 +59,8 @@
 - Put it in your resource Group that we made, this network will be named Active-Directory-VNet
 
 - select your region, once you click on "Review + Create," hit "Create"
+
+<br>
   
 <h3>&#9314; Please proceed with the creation of the virtual machines, beginning with DC-1</h3>
 
@@ -72,6 +74,8 @@
 - Please select your designated resource group. For the name of the virtual machine, I have chosen "DC-1"
   
 - I have selected my region and configured the availability options to "Availability Zone," ensuring that "Self-Selected Zone" is also marked. For all other settings, I have retained the options as displayed. Furthermore, I have chosen the image for this virtual machine as "Windows Server 2022 Datacenter Azure Edition - x64 Gen 2"
+
+<br>
   
 <img width="545" alt="1A" src="https://github.com/user-attachments/assets/b3585c30-9b36-410e-b2c8-76b6c8fc3bb4">
 
@@ -188,7 +192,9 @@
 
 <br>
 
-- Open Microsoft Remote Desktop --> Click on the Plus icon and click on add Pc --> name it dc-1 ---> paste the public IP address in the PC name ---> press add to connect (if needed put in the username and password u made to connect)
+- Open Microsoft Remote Desktop --> Click on the Plus icon and click on add Pc --> Name it dc-1 in "Friendly Name:" ---> paste the public IP address in the PC name ---> press add to connect (if needed put in the username and password u made to connect)
+
+<br>
 
 <img width="601" alt="Screenshot 2025-01-12 at 8 00 32 PM" src="https://github.com/user-attachments/assets/a82711e7-80c0-4aa3-9bea-3e06a4c41c91" />
 
@@ -217,7 +223,7 @@
 
 
 
-- In the domain controller right click the start menu and press run, type wf.msc this is for Windows firewall
+- In the domain controller right click the start menu and press run, type wf.msc this is for the Windows firewall
 
 
 
@@ -225,20 +231,40 @@
 
 - After that, the firewall should be off
 
-<img width="1239" alt="Screenshot 2025-01-12 at 8 36 28 PM" src="https://github.com/user-attachments/assets/2c3fe0df-b0cc-4b11-b24e-771a91436397" />
+<br>
 
+<img width="1239" alt="Screenshot 2025-01-12 at 8 36 28 PM" src="https://github.com/user-attachments/assets/2c3fe0df-b0cc-4b11-b24e-771a91436397" />
 
 <br>
 
+<img width="645" alt="Screenshot 2025-01-13 at 1 27 31 PM" src="https://github.com/user-attachments/assets/886ff4e7-fde7-42f2-acd0-d68725439e7c" />
+
+<br>
+
+
 <h3>&#9315; Set Client-1's DNS settings to DC-1's Private IP address </h3>
 
-(insert pic 14:40)  (insert pic 15:01)
+<img width="509" alt="Screenshot 2025-01-13 at 1 41 14 PM" src="https://github.com/user-attachments/assets/e877b66e-82cd-4162-8ff9-b4b1ba0b8c0a" />
+
+<br>
+
+<img width="310" alt="Screenshot 2025-01-13 at 1 44 22 PM" src="https://github.com/user-attachments/assets/57ffa1f7-7ca4-4a05-ba6c-bc4cdf27dcbb" />
+
+<br>
+
 
 - First back in the Azure portal get DC-1's Private IP address and copy it, then go to Client 1 --> Networking --> Network Settings and click on Client 1's Virtual Network Interface Card
 
-(insert pic 15:35)
+<br>
 
-- Click on DNS servers hit custom and then paste the IP address of DC-1 that you copied from the Azure portal
+
+
+<img width="448" alt="Screenshot 2025-01-13 at 1 48 24 PM" src="https://github.com/user-attachments/assets/b9ae6fb4-8328-4e0a-8fc4-43d7012dbf12" />
+
+<br>
+
+
+- Click on DNS servers, hit custom, and then paste the IP address of DC-1 that you copied from the Azure portal
 
 - Whenever the computer needs to lookup anything like for instance Google.com, it will look to DC-1 for it
 
@@ -246,39 +272,71 @@
 
 - Hit Save
 
+<br>
+
+<img width="873" alt="Screenshot 2025-01-13 at 1 52 53 PM" src="https://github.com/user-attachments/assets/38fc1b75-1190-445b-a2d2-94177961d56f" />
+
+
 - Then go to your Virtual Machines in Azure click the box next to Client-1 and press restart at the top
 
+<br>
+
+<img width="219" alt="Screenshot 2025-01-13 at 2 00 10 PM" src="https://github.com/user-attachments/assets/2533ef36-8a04-4d1b-90c8-a9ba85bd794c" />
+
+<br>
+
 - From here we will attempt to log in to Client 1 and attempt to ping DC-1's private IP address
+  
 
-(insert pic 17:15)
+- Click on Client 1 in Azure and copy its Public IP address
 
-- Click on Client 1 in Azure and copy its Public IP address 
+<br>
 
-(insert pic 17:25)
+<img width="566" alt="Screenshot 2025-01-13 at 2 11 20 PM" src="https://github.com/user-attachments/assets/346e17d4-54c0-49a2-9569-a55260c9dbbd" />
 
-- Then head on over to remote desktop to enter Client-1, we are going to name this Client 1, and make sure to put in your username and password that you wrote down
+<br>
 
-- Head on over to DC-1 in Azure to get the private IP address
+- Then head on over to remote desktop to enter Client-1, we are going to name this "client-1", and make sure to put in your username and password that you wrote down
 
-(insert pic 18:24)
+- Head on over to DC-1 in Azure to get that private IP address
+
+<br>
+
+<img width="345" alt="Screenshot 2025-01-13 at 2 18 14 PM" src="https://github.com/user-attachments/assets/f0977b85-74d9-446c-ad02-ca4c3afbe251" />
+
+<br>
 
 - Login to Client-1 and Open up PowerShell
 
-(insert pic 18:24)
+<br>
+
+<img width="399" alt="Screenshot 2025-01-13 at 2 23 48 PM" src="https://github.com/user-attachments/assets/fec097d2-64b0-4725-8a33-70598c9df435" />
+
+<br>
 
 - In PowerShell type ping and DC-1's private IP address and press enter
 
 - If the output says "Destination host unreachable," then they are probably in different virtual networks, or DC-1's firewall is probably still on, or ping is being blocked somehow.
 
-(insert pic 19:38)
+<br>
+
+<img width="243" alt="Screenshot 2025-01-13 at 2 26 25 PM" src="https://github.com/user-attachments/assets/d5e91e87-4302-4aa6-b8a0-ded88b4dbb72" />
+<br>
 
 - Type in PowerShell ipconfig /all
 
-(insert pic 19:56)
+<br>
 
-- Upon execution, the line pertaining to the DNS servers should display the private IP address of DC-1 in a highlighted manner.
+<img width="563" alt="Screenshot 2025-01-13 at 2 28 11 PM" src="https://github.com/user-attachments/assets/80f13c37-ecd8-4782-8d8b-60cc7f7832b1" />
+
+<br>
+
+
+- Upon execution, the line pertaining to the DNS servers should display the private IP address of DC-1 that I have highlighted here.
 
 - Now client 1 should be using DC-1 as the DNS server
+
+<br>
 
 
 
@@ -295,7 +353,8 @@
 
 <br>
 
-(insert pic 2:56)
+<img width="336" alt="Screenshot 2025-01-13 at 2 39 31 PM" src="https://github.com/user-attachments/assets/54a01f9e-e0a3-4826-a1de-4fb18cb3f38e" />
+
 <br> 
 
 - To make sure which virtual machine you are in see if the Microsoft store is located below in the taskbar if so that would be Windows 10 which is not DC-1
