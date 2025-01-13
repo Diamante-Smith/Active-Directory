@@ -181,9 +181,10 @@
 
 <br>
 
-<img width="287" alt="Screenshot 2024-09-19 at 12 28 36 PM" src="https://github.com/user-attachments/assets/fc0b9142-ae88-4315-9a78-b2649a841455">
 
 - Go to the App Store on Mac and download this app. We are going to use remote desktop to connect to our Windows Server virtual machine
+
+<img width="287" alt="Screenshot 2024-09-19 at 12 28 36 PM" src="https://github.com/user-attachments/assets/fc0b9142-ae88-4315-9a78-b2649a841455">
 
 <br>
 
