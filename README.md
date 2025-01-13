@@ -173,17 +173,29 @@
 
 <h3>&#9313; Connect to DC-1</h3>
 
-<img width="601" alt="Screenshot 2025-01-12 at 8 00 32 PM" src="https://github.com/user-attachments/assets/a82711e7-80c0-4aa3-9bea-3e06a4c41c91" />
+<br>
 
-
-<img width="470" alt="Screenshot 2025-01-12 at 8 16 35 PM" src="https://github.com/user-attachments/assets/74d8cbbb-70f5-408a-b61f-b737f8123a43" />
-
-
-  
 - First, copy the public IP address in dc-1
+
+<img width="276" alt="Screenshot 2025-01-13 at 1 12 03 PM" src="https://github.com/user-attachments/assets/f63c13d1-7408-4d1c-9568-884061a5557e" /> 
+
+<br>
+
+<img width="287" alt="Screenshot 2024-09-19 at 12 28 36 PM" src="https://github.com/user-attachments/assets/fc0b9142-ae88-4315-9a78-b2649a841455">
+
+- Go to the App Store on Mac and download this app. We are going to use remote desktop to connect to our Windows Server virtual machine
+
+<br>
 
 - Open Microsoft Remote Desktop --> Click on the Plus icon and click on add Pc --> name it dc-1 ---> paste the public IP address in the PC name ---> press add to connect (if needed put in the username and password u made to connect)
 
+<img width="601" alt="Screenshot 2025-01-12 at 8 00 32 PM" src="https://github.com/user-attachments/assets/a82711e7-80c0-4aa3-9bea-3e06a4c41c91" />
+
+<br>
+
+<img width="470" alt="Screenshot 2025-01-12 at 8 16 35 PM" src="https://github.com/user-attachments/assets/74d8cbbb-70f5-408a-b61f-b737f8123a43" />
+
+  
 <br>
 
 <img width="1676" alt="12" src="https://github.com/user-attachments/assets/a1fafc6e-e3af-441a-af58-bd18ac2b7a8e" />
