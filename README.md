@@ -58,7 +58,7 @@
 
 - Put it in your resource Group that we made, this network will be named Active-Directory-VNet
 
-- select your region, once you hit click on "Review + Create," hit "Create"
+- select your region, once you click on "Review + Create," hit "Create"
   
 <h3>&#9314; Please proceed with the creation of the virtual machines, beginning with DC-1</h3>
 
@@ -67,7 +67,7 @@
 
 <br>
 
-- Search for Virtual Machines and hit create 
+- Search for Virtual Machines and hit create; Make sure to click on Azure Virtual Machine 
 
 - Please select your designated resource group. For the name of the virtual machine, I have chosen "DC-1"
   
@@ -156,7 +156,7 @@
 
 <br>
 
-- Click on ipconfig to alter this to Static instead of dynamic
+- Click on ipconfig located at the bottom to alter this to Static instead of dynamic
 <br>
 
 <img width="505" alt="7" src="https://github.com/user-attachments/assets/9cb9dee8-084d-4824-9912-10be5239f355" />
@@ -173,11 +173,16 @@
 
 <h3>&#9313; Connect to DC-1</h3>
 
-- (insert pic 12:21)
+<img width="601" alt="Screenshot 2025-01-12 at 8 00 32 PM" src="https://github.com/user-attachments/assets/a82711e7-80c0-4aa3-9bea-3e06a4c41c91" />
+
+
+<img width="470" alt="Screenshot 2025-01-12 at 8 16 35 PM" src="https://github.com/user-attachments/assets/74d8cbbb-70f5-408a-b61f-b737f8123a43" />
+
+
   
 - First, copy the public IP address in dc-1
 
-- Open Microsoft Remote Desktop --> name it dc-1 ---> paste the public IP address in the PC name ---> press add to connect (if needed put in the username and password u made to connect)
+- Open Microsoft Remote Desktop --> Click on the Plus icon and click on add Pc --> name it dc-1 ---> paste the public IP address in the PC name ---> press add to connect (if needed put in the username and password u made to connect)
 
 <br>
 
@@ -192,21 +197,23 @@
 
 <h3>&#9314; Turn the firewall off for DC-1</h3>
 
+<img width="414" alt="Screenshot 2025-01-12 at 8 23 32 PM" src="https://github.com/user-attachments/assets/712d2f39-f64d-42ca-9aa3-a9a02df4293c" />
 
-
-<img width="1046" alt="8" src="https://github.com/user-attachments/assets/c16c4619-f998-493a-8177-e550011100b4" />
 
 <br>
 
-(insert pic 13:34)
+
 
 - In the domain controller right click the start menu and press run, type wf.msc this is for Windows firewall
 
-(insert pic 13:40)
+
 
 - In the firewall, we are going to disable it so click on Windows Defender Firewall Properties ---> hit the off option for the Firewall state on every profile ---> hit apply then OK
 
 - After that, the firewall should be off
+
+<img width="1239" alt="Screenshot 2025-01-12 at 8 36 28 PM" src="https://github.com/user-attachments/assets/2c3fe0df-b0cc-4b11-b24e-771a91436397" />
+
 
 <br>
 
