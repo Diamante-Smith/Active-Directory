@@ -505,43 +505,89 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 
 
+<img width="437" alt="49" src="https://github.com/user-attachments/assets/debafb06-c2fe-40ae-9e50-ee6da95b7640" />
 
 
+- Log back into Remote Desktop this time with "mydomain.com\" followed by your username
 
+- Since this time we will be logging in as a Domain User instead of a local context
 
-
-
-<img width="565" alt="my domain" src="https://imgur.com/ovGgm26.png"> 
-  
-- Finish setup and restart DC-1
-
-- Log back into Remote Desktop with your username credentials following with "@mydomain.com" 
+<br>
 
 
 
 <h3>&#9314; Create an Admin in Active Directory </h3>
 
-- Once DC-1 has rebooted, click on tools and select Active Directory Users and Computers
+<img width="273" alt="Screenshot 2025-01-14 at 11 30 02 AM" src="https://github.com/user-attachments/assets/9ffa0957-ed58-4877-9e5d-85a50725df69" />
+<br>
 
-- Right click on mydomain.com; select -> New -> Organizational Unit 
-
-<img width="500" alt="Users" src="https://imgur.com/VESNQeS.png">
+<img width="561" alt="Screenshot 2025-01-14 at 11 35 27 AM" src="https://github.com/user-attachments/assets/4082bb87-eebc-4d4f-a49b-d8931dd70f66" />
 
 <br>
 
-<p><strong> We will create two OU's labeled "_EMPLOYEES" and "_ADMINS" </strong></p>
-
-<img width="500" alt="admins" src="https://imgur.com/vsSxufF.png">
 
 
+- Once logged back into DC-1 type in Windows Administrative Tools then select Active Directory Users and Computers
 
-<p><strong>Right click on Users and create a new user named "Jane Doe" with the username "jane_admin"</strong></p>
-
-<img width="450" alt="jane doe" src="https://imgur.com/n9RKfcz.png">
-
+<img width="754" alt="17" src="https://github.com/user-attachments/assets/8ab5cb56-9269-42f5-b58b-e82d6eeadde3" />
 
 
-<p><strong>We will change Jane Doe into an admin account by right clicking her name and adding her to the “Domain Admins” security group</strong></p>
+- Right click on mydomain.com; select --> New --> Organizational Unit 
+
+<br>
+
+<img width="425" alt="18" src="https://github.com/user-attachments/assets/4485c333-c24e-4534-88cc-0bb30fdc8545" />
+
+<br>
+
+<img width="168" alt="19" src="https://github.com/user-attachments/assets/c36f109c-fb75-4981-81bb-ec7a9523a592" />
+
+
+
+- We will create two labeled "_EMPLOYEES" and "_ADMINS" 
+
+<br>
+
+<img width="360" alt="Screenshot 2025-01-14 at 12 01 17 PM" src="https://github.com/user-attachments/assets/3980bdaa-b36f-4e89-ae04-36f15902dc76" />
+
+<br>
+
+<img width="430" alt="20" src="https://github.com/user-attachments/assets/4c9c907d-4887-4ef4-9a37-18289100e50a" />
+
+
+
+- Right click on _Admins folder, press -> New -> User and create a new user named "Jane Doe" with the username "jane_admin"
+
+<br>
+
+<img width="384" alt="Screenshot 2025-01-14 at 12 09 20 PM" src="https://github.com/user-attachments/assets/d03d773a-eed0-48af-9e35-7045a8d50d31" />
+
+
+- Make sure to write down or remember the password you make for her
+
+- Make sure to Uncheck "User must change password at next logon"
+
+- Check "Password never expires"
+
+<br>
+
+<img width="369" alt="Screenshot 2025-01-14 at 12 21 44 PM" src="https://github.com/user-attachments/assets/ab2daee6-68ef-4501-be37-8d715321313b" />
+
+<br>
+
+<img width="249" alt="Screenshot 2025-01-14 at 12 27 48 PM" src="https://github.com/user-attachments/assets/81bb25ad-3e72-4212-8108-de4fa64b50d4" />
+
+
+
+- We will change Jane Doe into an admin account by pressing the _ADMINS folder -> right clicking her name -> Hit Properties -> and adding her to the “Domain Admins” Group
+
+- Type in domain admins for the object names -> press Check Names for it to find the group
+
+- Hit Ok -> Apply -> OK, Now the account is a Domain Admin giving her the ability to create Users and etc
+
+- Next logoff or sign out
+
+<br>
 
 <img width="450" alt="add to group" src="https://imgur.com/n9RKfcz.png">
 
