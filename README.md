@@ -400,6 +400,7 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - In Server Roles check mark Active Directory Domain Services --> hit add features
 
+
 <img width="413" alt="Screenshot 2025-01-13 at 3 17 23 PM" src="https://github.com/user-attachments/assets/c7b67da3-1b64-4ae8-8d4e-fcd0c964f006" />
 
 <br>
@@ -407,44 +408,108 @@ This project provides a comprehensive guide to deploying and configuring Active 
 <img width="245" alt="Screenshot 2025-01-13 at 3 17 43 PM" src="https://github.com/user-attachments/assets/9a51261e-a992-44ed-b3ea-a5c71ee075a6" />
 
 <br>
+
 <img width="785" alt="Screenshot 2025-01-13 at 3 18 07 PM" src="https://github.com/user-attachments/assets/808961aa-ebac-485d-8275-efe980164163" />
+
+
 <br>
+
+
 <img width="785" alt="Screenshot 2025-01-13 at 3 18 20 PM" src="https://github.com/user-attachments/assets/10f49db8-47fa-4001-b3dc-c35bdbfa6853" />
+
+
 <br>
 
 
 
 
 - Then hit Next, Check mark "Restart the destination server automatically if required" --> click YES --> press Install
-<br>
+
 
 <img width="786" alt="Screenshot 2025-01-13 at 3 18 45 PM" src="https://github.com/user-attachments/assets/ceb86aae-889c-4cd7-a0e6-f34df75f3834" />
+
 <br>
 
 
 - After the installation hit close
-<br>
+
 
 <img width="783" alt="Screenshot 2025-01-13 at 3 25 46 PM" src="https://github.com/user-attachments/assets/26f433be-1e43-4ecb-b777-97dcc14e1622" />
+
 <br>
 
 
 
 <h3>&#9313; Promote DC-1 to Domain Controller </h3>
 
+<img width="377" alt="Screenshot 2025-01-13 at 3 28 42 PM" src="https://github.com/user-attachments/assets/0ee69569-7c21-4899-9cc5-228cd3e248b8" />
+
+
 - Once the installation is done, notice the flag on the Server Manager at the top right
   
 - Click on the flag and press the highlighted text "promote this server a.k.a DC-1 to Domain Controller"
 
-<img width="350" alt="notif" src="https://imgur.com/4W04gBQ.png">
+<br>
+
+<img width="761" alt="Screenshot 2025-01-13 at 3 29 19 PM" src="https://github.com/user-attachments/assets/9a44f642-7e75-476c-b7c2-0a7a59b1ff1c" />
 
 
 
 -  Next, we will select 'Add a new forest' and set the Root domain name to “mydomain.com”
 
+<br>
+
+
+<img width="760" alt="Screenshot 2025-01-13 at 3 31 07 PM" src="https://github.com/user-attachments/assets/aa6fa371-a86e-4c78-aeba-42c6bd56f106" />
+
+
 -  Hit Next, where it says "Directory Services Restore Mode (DSRM) password"  Just put in a password that you can remember and confirm it
 
-  5:18
+<br>
+
+<img width="761" alt="Screenshot 2025-01-13 at 3 31 26 PM" src="https://github.com/user-attachments/assets/09cf3b62-bfb7-426b-be9d-87e17fd6adc4" />
+
+- Uncheck Create DNS delegation then hit Next
+
+<br>
+
+<img width="758" alt="Screenshot 2025-01-13 at 3 31 54 PM" src="https://github.com/user-attachments/assets/dd95e224-8413-4005-9db5-dbfccaf66b59" />
+
+- Click Next
+
+<br>
+
+<img width="761" alt="Screenshot 2025-01-13 at 3 32 13 PM" src="https://github.com/user-attachments/assets/019536f4-320e-4c01-82c4-1a54b850dfd6" />
+
+- Click Next
+
+<br>
+
+<img width="760" alt="Screenshot 2025-01-13 at 3 32 27 PM" src="https://github.com/user-attachments/assets/e2b4962c-59d5-4b0a-b08d-01ef75a3ddf2" />
+
+- Click Next
+
+<br>
+
+<img width="761" alt="Screenshot 2025-01-13 at 3 33 15 PM" src="https://github.com/user-attachments/assets/88bf4a55-d548-4b4e-aa94-d3f90b6231f7" />
+
+- Click Install, And then wait for the new forest to be installed and this computer to be turned into a Domain Controller
+
+<br>
+
+<img width="682" alt="Screenshot 2025-01-13 at 3 35 36 PM" src="https://github.com/user-attachments/assets/afd51be8-27f4-4553-a7d6-80d437acefcf" />
+
+- The Blue pop up will let you know the restart will be taking place and the server was successful in being changed
+
+<br>
+
+
+
+
+
+
+
+
 
 <img width="565" alt="my domain" src="https://imgur.com/ovGgm26.png"> 
   
