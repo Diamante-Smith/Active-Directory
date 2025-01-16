@@ -654,13 +654,15 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
-<img width="354" alt="Screenshot 2025-01-16 at 4 34 27 PM" src="https://github.com/user-attachments/assets/6c59de37-d45a-4dba-9784-3622195ea7ea" />
+<img width="536" alt="Screenshot 2025-01-16 at 4 49 06 PM" src="https://github.com/user-attachments/assets/838d6ca8-59a7-43d9-a119-31c4fa98a0c5" />
 
 
 
 - Go back into DC-1 and go back into the Active Directory Users and Computers
 
-- Go to 
+- Expand "mydomain.com" -> Click "Computers" file
+
+- 22:28
 
 <br>
 
