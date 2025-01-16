@@ -593,33 +593,76 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 
 
-<p><strong>Logout of DC-1 and sign back in with Jane Doe’s credentials</strong></p>
+- Logout of DC-1 and sign back in with Jane Doe’s credentials
 
-<img width="400" alt="jane login" src="https://imgur.com/EnnzYVs.png">
-
-
-
-<h3>&#9315; Join Client-1 to Domain </h3>
-
-<p><strong> For Client-1 to join the domain, the DNS server must be changed. Therefore we will set it's DNS server as DC-1's private IP address</strong></p>
-
-- In the Azure Portal, select Client-1 -> Networking -> Network interface -> Settings -> DNS Server
-
-<img width="350" alt="dns servers" src="https://imgur.com/9bKXViA.png">
+<img width="430" alt="23" src="https://github.com/user-attachments/assets/82ef4c94-c830-4bd3-9b75-b62c829b07c1" />
 
 
-<p><strong>Select custom DNS server and type in the private IP address of DC-1 and restart Client-1 virtual machine in Azure</strong></p>
-
-<img width="410" alt="dns servers2" src="https://imgur.com/5hhy1Ac.png">
 
 
-<p><strong> Now log back in to Client-1 using your original credentials. Click start and go to Settings -> Rename this PC (advanced) -> Change and add “mydomain.com” and login with the admin credentials previously created (jane_admin) </strong></p>
+<h3>&#9315; Join Client-1 To The Domain </h3>
 
-<img width="310" alt="remote desktop first login" src="https://imgur.com/OsjB5gK.png">
+- First, get Client 1's public IP address and log into it
+
+
+<img width="482" alt="Screenshot 2025-01-16 at 3 47 59 PM" src="https://github.com/user-attachments/assets/51d10314-80ce-44f3-abce-f26e3d4fc52b" />
+
+- To join it to the Domain go into System settings --> About
 
 <br>
 
-<p> <strong>Once Client-1 has been added, the VM will restart.</strong></p>
+<img width="185" alt="Screenshot 2025-01-16 at 3 47 51 PM" src="https://github.com/user-attachments/assets/3ac7b7cb-1e49-4b94-8180-b30c0b3cd361" />
+
+- Click on "Rename this PC (advanced)"
+
+<br>
+
+
+<img width="404" alt="24" src="https://github.com/user-attachments/assets/ba0b9cdb-f99c-4384-a5fc-24436dacd263" />
+
+
+- under the Computer Name tab click on Change
+
+<br>
+
+<img width="318" alt="29" src="https://github.com/user-attachments/assets/09aa36dd-65a9-4d81-bbd4-cec1bf5057e8" />
+
+
+- To join it to a Domain you would select "Domain" then under "Member of" type in mydomain.com -> press OK
+
+<br>
+
+<img width="457" alt="Screenshot 2025-01-16 at 4 28 36 PM" src="https://github.com/user-attachments/assets/1bec6e7d-042b-4f5e-83e9-713ca92ab384" />
+
+
+- From there you will get a pop-up to log in which will be using the Jane Admin account
+
+<br>
+
+<img width="304" alt="Screenshot 2025-01-16 at 4 34 18 PM" src="https://github.com/user-attachments/assets/4d6b4d58-6662-4618-b57f-291972e48dea" />
+
+<br>
+
+<img width="354" alt="Screenshot 2025-01-16 at 4 34 27 PM" src="https://github.com/user-attachments/assets/8e9bceb7-b05d-4f75-bdbb-b8899517ab7f" />
+
+
+
+- Once you receive this pop-up click Ok -> Ok -> Close -> Restart Now
+  
+
+- When it comes back up it will be a member of the Domain
+
+<br>
+
+<img width="354" alt="Screenshot 2025-01-16 at 4 34 27 PM" src="https://github.com/user-attachments/assets/6c59de37-d45a-4dba-9784-3622195ea7ea" />
+
+
+
+- Go back into DC-1 and go back into the Active Directory Users and Computers
+
+- Go to 
+
+<br>
 
 
 
