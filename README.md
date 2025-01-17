@@ -660,9 +660,13 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - Go back into DC-1 and go back into the Active Directory Users and Computers
 
-- Expand "mydomain.com" -> Click "Computers" file
+- Expand "mydomain.com" -> Click "Computers" and Client 1 will be located in there
 
-- 22:28
+- Once you click on Client 1 you can check out things like its Operating System, Member of and etc
+
+- To keep everything more organized 
+
+- 22:56
 
 <br>
 
