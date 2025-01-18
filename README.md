@@ -664,9 +664,13 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - Once you click on Client 1 you can check out things like its Operating System, Member of and etc
 
-- To keep everything more organized 
+<br>
 
-- 22:56
+22:56
+
+- To keep everything more organized I'll make a new organizational unit called _CLIENTS to do this like before, Right-click mydomain.com-> New -> Organizational Unit
+
+- Then back in the Computers Unit you wanna drag Client-1 and put that in _CLIENTS then refresh to make the list update
 
 <br>
 
