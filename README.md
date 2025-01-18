@@ -712,10 +712,37 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - Log back into Client-1 using "jane_admin" credentials
 
-- Right Click start menu -> Click "System" -> Remote Desktop -> User Accounts and click “Select users that can remotely access this PC”
+<br>
+
+<img width="144" alt="Screenshot 2025-01-18 at 5 38 24 PM" src="https://github.com/user-attachments/assets/05f6cb92-8e60-4e1d-9d52-eb7135a0cca6" />
+
+<br>
+
+<img width="285" alt="Screenshot 2025-01-18 at 5 39 11 PM" src="https://github.com/user-attachments/assets/6ea5a5ef-78c9-4f24-bf79-5f40e7e8043d" />
+
+<br>
+
+<img width="208" alt="Screenshot 2025-01-18 at 5 42 42 PM" src="https://github.com/user-attachments/assets/ba17a924-ae33-4621-9a35-98edb5e773e6" />
+
+<br>
 
 
-- Add Domain Users
+
+- Right Click start menu -> Click "System" -> Click "Remote Desktop" -> Under "User Accounts" Click “Select users that can remotely access this PC” -> Click "Add"
+
+
+<br>
+
+<img width="375" alt="34" src="https://github.com/user-attachments/assets/e66c1e96-d71c-4d94-9953-2ff9913c5e21" />
+
+
+
+- The computer can now access the context of mydomain.com
+
+
+- Type in "domain users" -> Click "Check Names" Click OK then Ok again
+
+- This means all Users accounts by default are users by default are a member to this group and should be allowed to log into the computer 
 
 <br>
 
