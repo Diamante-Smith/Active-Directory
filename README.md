@@ -742,14 +742,14 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - Type in "domain users" -> Click "Check Names" Click OK then Ok again
 
-- This means all Users accounts by default are users by default are a member to this group and should be allowed to log into the computer 
+- By doing this all user accounts are automatically assigned to this group by default, granting them permission to log into the computer.
 
 <br>
 
 
 <img width="350" src="https://imgur.com/R2sxVPR.png">
 
-<p><strong>This allows normal users to login to Client-1</strong></p>
+- This allows normal users to login to Client-1
 
 <br>
 
