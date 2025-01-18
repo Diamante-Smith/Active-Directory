@@ -579,11 +579,11 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 
 
-- We will change Jane Doe into an admin account by pressing the _ADMINS folder -> right clicking her name -> Hit Properties -> and adding her to the “Domain Admins” Group
+- We will change Jane Doe into an admin account by pressing the _ADMINS folder -> right-clicking her name -> Hit Properties -> and adding her to the “Domain Admins” Group
 
 - Type in domain admins for the object names -> press Check Names for it to find the group
 
-- Hit Ok -> Apply -> OK, Now the account is a Domain Admin giving her the ability to create Users and etc
+- Hit Ok -> Apply -> OK, Now the account is a Domain Admin giving her the ability to create Users, etc
 
 - Next logoff or sign out
 
@@ -662,15 +662,42 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - Expand "mydomain.com" -> Click "Computers" and Client 1 will be located in there
 
+<br>
+
+<img width="339" alt="Screenshot 2025-01-18 at 3 05 08 PM" src="https://github.com/user-attachments/assets/4f893073-5a45-4bae-ac6c-c1555f09c68d" />
+
+<br>
+
+<img width="306" alt="Screenshot 2025-01-18 at 3 04 58 PM" src="https://github.com/user-attachments/assets/b436fad4-b20f-4182-b0e0-f73acdf6db0a" />
+
+<br>
+
+<img width="399" alt="Screenshot 2025-01-18 at 3 04 20 PM" src="https://github.com/user-attachments/assets/69b53207-30ab-4280-ac10-02d697ad5a9a" />
+
+
+
+
 - Once you click on Client 1 you can check out things like its Operating System, Member of and etc
 
 <br>
 
-22:56
+<img width="754" alt="17" src="https://github.com/user-attachments/assets/25b81eb4-8a99-4c4c-a4ab-13155bcceb60" />
+
 
 - To keep everything more organized I'll make a new organizational unit called _CLIENTS to do this like before, Right-click mydomain.com-> New -> Organizational Unit
 
-- Then back in the Computers Unit you wanna drag Client-1 and put that in _CLIENTS then refresh to make the list update
+<br>
+
+<img width="208" alt="Screenshot 2025-01-18 at 3 23 14 PM" src="https://github.com/user-attachments/assets/2b3a0e2a-4032-4e26-8f07-34ddc49ca095" />
+
+<br>
+
+<img width="148" alt="Screenshot 2025-01-18 at 3 23 25 PM" src="https://github.com/user-attachments/assets/8fa000ea-2259-49fe-8d5e-088db3554f26" />
+
+<br>
+
+
+- Then back in the Computers Unit you wanna drag Client-1 and put that in _CLIENTS then refresh to make the list updated
 
 <br>
 
@@ -678,7 +705,16 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <h3>&#9316; Setup Remote Desktop for non-administrative users </h3>
 
-- Log back into Client-1 using "jane_admin" credentials and open Settings -> Remote Desktop -> User Accounts and click “Select users that can remotely access this PC”
+<img width="430" alt="23" src="https://github.com/user-attachments/assets/ecef2d9d-e261-4b34-b473-a1cd3e6c6b11" />
+
+<br>
+
+
+- Log back into Client-1 using "jane_admin" credentials
+
+- Right Click start menu -> Click "System" -> Remote Desktop -> User Accounts and click “Select users that can remotely access this PC”
+
+
 - Add Domain Users
 
 <br>
