@@ -749,10 +749,24 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <img width="350" src="https://imgur.com/R2sxVPR.png">
 
-- This allows normal users to login to Client-1
+- This allows normal users to log in to Client-1
 
 <br>
 
+<h3>&#9315; Create a bunch of additional users and attempt to log into client-1 with one of the users </h3>
+
+
+
+
+<br>
+
+- First Log into DC-1
+
+  
+5:35
+- Type in "Windows PowerShell" in the start menu -> Right-click on the "ISE" version -> Click "Run as administrator"
+
+- Open up, copy, and paste the script that is provided to you
 
 
 
