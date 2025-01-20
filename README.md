@@ -753,22 +753,64 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
-<h3>&#9315; Create a bunch of additional users and attempt to log into client-1 with one of the users </h3>
-
-
+<h3>&#9316; Create a bunch of additional users and attempt to log into client-1 with one of the users </h3>
 
 
 <br>
 
 - First Log into DC-1
-
+<br>
   
-5:35
+<img width="230" alt="Screenshot 2025-01-19 at 6 05 00 PM" src="https://github.com/user-attachments/assets/5efb44a0-419f-4bd2-9c4f-ad79b6ca5da6" />
+
 - Type in "Windows PowerShell" in the start menu -> Right-click on the "ISE" version -> Click "Run as administrator"
 
+<br>
+
+<img width="1468" alt="39" src="https://github.com/user-attachments/assets/805c4d54-ebf8-40a5-bb1f-2b1d125786b0" />
+
+- link <https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1/>
+  
 - Open up, copy, and paste the script that is provided to you
 
+<br>
 
+<img width="42" alt="Screenshot 2025-01-19 at 6 13 44 PM" src="https://github.com/user-attachments/assets/6df065cc-b3bb-458b-9781-1aab73418dbf" />
+
+- At the top of Powershell click on New Script
+
+- Save it for me I named it create-users
+
+<img width="153" alt="Screenshot 2025-01-19 at 6 20 16 PM" src="https://github.com/user-attachments/assets/20a7030b-01e4-4a07-86c7-008207837f3b" />
+
+<br>
+
+
+- The script relies on this piece because our organizational Unit in Active Directory Users and Computers is _EMPLOYEES
+
+- The script just creates 1000 Users for us with random names
+
+- Click "Run Script"
+<br>
+
+<img width="279" alt="Screenshot 2025-01-19 at 6 29 16 PM" src="https://github.com/user-attachments/assets/cbd4d497-637c-4a3d-b138-d03a5fb2ba50" />
+
+All of the Users will have the same password for instance mine is "Password 1"
+
+<br>
+
+
+<img width="355" alt="Screenshot 2025-01-19 at 6 40 18 PM" src="https://github.com/user-attachments/assets/4bf76cb1-9c8e-48d9-a26a-8ebf82a89568" />
+
+- Back in the Active Directory Users and Computers you can see the employees being created 
+<br>
+
+<img width="299" alt="65" src="https://github.com/user-attachments/assets/b7d0cc0c-c840-4886-b065-8f3c12e69130" />
+
+- This is what I chose
+
+- Pick any random name you want and logout of Jane Doe and Login with the new user name
+<br>
 
 <h2> Final Thoughts </h2>
 
