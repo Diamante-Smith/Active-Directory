@@ -795,7 +795,7 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <img width="279" alt="Screenshot 2025-01-19 at 6 29 16 PM" src="https://github.com/user-attachments/assets/cbd4d497-637c-4a3d-b138-d03a5fb2ba50" />
 
-All of the Users will have the same password for instance mine is "Password 1"
+- All of the Users will have the same password for instance mine is "Password 1"
 
 <br>
 
