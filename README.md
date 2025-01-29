@@ -21,8 +21,8 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <h2>Operating Systems Used </h2>
 
-- Windows Server 2022
-- Windows 10 (21H2)
+- Windows Server 2022 Datacenter Azure Edition - x64 Gen 2
+- Windows 10 Pro, Version 22H2 - x64 Gen 2
 - macOS 
 
 
