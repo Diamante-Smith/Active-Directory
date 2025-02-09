@@ -817,7 +817,7 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - Pick any random name you want and logout of Client-1 A.K.A Jane Doe and log in with the new user name
 
-- When logging back into Client-1 Username is "mydomain.com\"new user" plus the password is "Password1" with a capital P and try logging in now.
+- When logging back into Client-1 Username is "mydomain.com\ "new user" plus the password is "Password1" with a capital P and try logging in now.
 <br>
 (pic 10:53)
 
