@@ -779,7 +779,7 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - At the top of Powershell click on New Script
 
-- Save it for me I named it create-users
+- Save it, for me I named it create-users
 
 <img width="153" alt="Screenshot 2025-01-19 at 6 20 16 PM" src="https://github.com/user-attachments/assets/20a7030b-01e4-4a07-86c7-008207837f3b" />
 
@@ -797,19 +797,32 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - All of the Users will have the same password for instance mine is "Password 1"
 
+
 <br>
 
 
 <img width="355" alt="Screenshot 2025-01-19 at 6 40 18 PM" src="https://github.com/user-attachments/assets/4bf76cb1-9c8e-48d9-a26a-8ebf82a89568" />
 
-- Back in the Active Directory Users and Computers you can see the employees being created 
+- Back in the Active Directory Users and Computers you can see the employees being created
+
+- If not "Right Click" on the "EMPLOYEES" folder --> Click Refresh
+
 <br>
 
 <img width="299" alt="65" src="https://github.com/user-attachments/assets/b7d0cc0c-c840-4886-b065-8f3c12e69130" />
 
+(pic 09:53)
+
 - This is what I chose
 
-- Pick any random name you want and logout of Jane Doe and Login with the new user name
+- Pick any random name you want and logout of Client-1 A.K.A Jane Doe and log in with the new user name
+
+- When logging back into Client-1 Username is "mydomain.com\"new user" plus the password is "Password1" with a capital P and try logging in now.
+<br>
+(pic 10:53)
+
+- When you double-click on your selected user -> Click "Member of:" 
+
 <br>
 
 <h2> Final Thoughts </h2>
