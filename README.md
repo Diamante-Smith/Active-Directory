@@ -819,11 +819,38 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - When logging back into Client-1 Username is "mydomain.com\ "new user" plus the password is "Password1" with a capital P and try logging in now.
 <br>
+
 (pic 10:53)
 
-- When you double-click on your selected user -> Click "Member of:" 
+- When you double-click on your selected user -> Click "Member of:"
+
+- Default they will be listed under Domain Users; we allowed domain users to log into Client-1 using remote desktop
 
 <br>
+
+(pic 11:30)
+- At the start menu type in cmd to bring up "Command Prompt"
+
+<br>
+
+(pic 11:37)
+
+- You can see at the top once your logged in a local profile
+
+- Click on File Explorer -> Click This PC -> Click Windows (C:) -> Users
+
+<br>
+
+(pic 11:57)
+
+- You will see in that folder the profile of the created user you chose from the script since we logged in with that profile along with others we logged into like jane_admin, and labuser
+
+- The Script will keep going until it creates 10,000 users
+
+<br>
+
+
+
 
 <h2> Final Thoughts </h2>
 
