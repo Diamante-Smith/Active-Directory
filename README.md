@@ -753,7 +753,7 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
-<h3>&#9316; Create a bunch of additional users and attempt to log into client-1 with one of the users </h3>
+<h3>&#9317; Create a bunch of additional users and attempt to log into client-1 with one of the users </h3>
 
 
 <br>
