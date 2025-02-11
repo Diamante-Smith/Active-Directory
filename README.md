@@ -849,7 +849,15 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
+(pic 3:31)
 
+- First, pick any easy name from the _EMPLOYEES folder remember the password is "Password1" and open up the remote desktop application 
+
+- Get and copy Client-1's public IP address from Azure
+
+- 
+
+<br>
 
 
 <h2> Final Thoughts </h2>
