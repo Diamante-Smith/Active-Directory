@@ -855,6 +855,10 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - Get and copy Client-1's public IP address from Azure
 
+(pic 4:17)
+
+- Connect to Client-1 with the random name you selected, going in this order Username: mydomain\ "random name" for the password put in any non-correct one a couple of times
+
 - 
 
 <br>
