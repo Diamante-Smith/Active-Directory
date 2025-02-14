@@ -862,8 +862,14 @@ This project provides a comprehensive guide to deploying and configuring Active 
 - The account will then be locked out when you try to sign in
 
 - *However if you logged in and you were able to get in with no problem after putting the wrong password in a couple of times then you probably don't have an account lockout policy set in Active Directory
--
-- 5:29
+
+  (pic 7:30)
+  
+- We will open up Group Policy Management on the Domain Controller, Click on the start menu and type gpmc.msc then click enter
+
+-  (pic 7:30)
+
+- Next will be the Domain Controller -> Right Click start -> hit on run 
 
 <br>
 
