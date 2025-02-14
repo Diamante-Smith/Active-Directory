@@ -857,9 +857,13 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 (pic 4:17)
 
-- Connect to Client-1 with the random name you selected, going in this order Username: mydomain\ "random name" for the password put in any non-correct one a couple of times
+- Connect to Client-1 with the random name you selected, going in this order Username: mydomain\ "random name" for the password put in any non-correct password a couple of times
 
-- 
+- The account will then be locked out when you try to sign in
+
+- *However if you logged in and you were able to get in with no problem after putting the wrong password in a couple of times then you probably don't have an account lockout policy set in Active Directory
+-
+- 5:29
 
 <br>
 
