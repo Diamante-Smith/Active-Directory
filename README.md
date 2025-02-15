@@ -865,7 +865,7 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
   (pic 7:30)
   
-- We will open up Group Policy Management on the Domain Controller, right-click the start menu, and type gpmc.msc -> click enter
+- We will open up Group Policy Management on the Domain Controller, right-click the Start menu hit run then type gpmc.msc -> click enter
 
   (pic 7:42)
 
@@ -873,13 +873,50 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
+
+ (pic 8:23)
+ 
+- Within that, there should be a Group Policy Object named "Default Domain Policy"
+
+- Right Click on it -> Press Edit
+
+
+<br>
   (pic 8:54)
 
 - Next, we will be navigating to the account Lockout Policy settings
 
-(pic 7:30)
+- Go to Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy
 
-- Next will be the Domain Controller -> Right Click start -> hit run 
+<br>
+
+(10:05)
+
+- Click on Lockout duration -> Set the timer for 30 minutes
+
+<br>
+
+(pic 10:34)
+
+- Account Lockout Threshold A.K.A how many times you can attempt to log in before it gets locked out
+
+- Set it to 5 attempts
+
+- Keep "Reset account lockout counter after" to 5 minutes so if you fail once you have 4 more attempts but if you fail once and wait 10 minutes you still have 5 attempts
+
+<br>
+
+- Log back into client-1 this time with jane_admin and the password you wrote
+
+<br>
+
+(pic 12:54)
+
+- After logging in we will be forcing the computer to accept the new policy
+
+- Open up the "Command Prompt"
+
+- Type in "gpupdate /force" and the policy should update and be reflected
 
 <br>
 
