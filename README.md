@@ -865,11 +865,21 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
   (pic 7:30)
   
-- We will open up Group Policy Management on the Domain Controller, Click on the start menu and type gpmc.msc then click enter
+- We will open up Group Policy Management on the Domain Controller, right-click the start menu, and type gpmc.msc -> click enter
 
--  (pic 7:30)
+  (pic 7:42)
 
-- Next will be the Domain Controller -> Right Click start -> hit on run 
+- This is the Group Policy Management Console
+
+<br>
+
+  (pic 8:54)
+
+- Next, we will be navigating to the account Lockout Policy settings
+
+(pic 7:30)
+
+- Next will be the Domain Controller -> Right Click start -> hit run 
 
 <br>
 
