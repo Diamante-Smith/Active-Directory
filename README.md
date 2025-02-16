@@ -938,11 +938,17 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 (pic 16:14)
 
-- Now go back into the Domain Controller -> Right Click "mydomain.com" -> Click "Find" -> and search for that random named account you selected
+- Now go back into the Domain Controller -> Right Click "mydomain.com" -> Click "Find" -> and search for that randomly named account you selected
 
 - Double Click the account -> Click "Account" -> Check mark "Unlock Account" -> Press Apply
 
 - Then re-attempt to log back into the account but with the right password this time
+
+<br>
+
+(18:40)
+
+- 
 
 
 <h2> Final Thoughts </h2>
