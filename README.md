@@ -828,6 +828,8 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
+<h3>&#9318; Unlock Accounts, Reset Passwords, Enable & Disable Accounts, Finally Observe Logs  </h3>
+
 (pic 11:30)
 - At the start menu type in cmd to bring up "Command Prompt"
 
@@ -918,7 +920,29 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - Type in "gpupdate /force" and the policy should update and be reflected
 
+- Now if someone fails a login over 5 times it should lock out their account
+
 <br>
+
+(pic 14:33)
+
+- Re-open the command prompt but this time click on run as an Administrator so that we can see if the policy was applied
+
+- Type in "gpresult /r" under "Computer settings" and see the last time the policy was applied
+
+(pic 15:42)
+
+- Now try to log into client-1 with your selected random name and type in the password wrong over 5 times
+
+<br>
+
+(pic 16:14)
+
+- Now go back into the Domain Controller -> Right Click "mydomain.com" -> Click "Find" -> and search for that random named account you selected
+
+- Double Click the account -> Click "Account" -> Check mark "Unlock Account" -> Press Apply
+
+- Then re-attempt to log back into the account but with the right password this time
 
 
 <h2> Final Thoughts </h2>
