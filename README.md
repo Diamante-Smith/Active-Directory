@@ -955,16 +955,19 @@ This project provides a comprehensive guide to deploying and configuring Active 
 - Navigate to your chosen random name -> Right Click it -> Click "reset password" -> Check mark "Unlock the user's account" if needed, Now you can make the password into anything you want
 
 <br>
-
+(pic 19:40)
 - Navigate back to your chosen random name -> Right Click it -> Click "Disable Account"
 
 - Logout of Client-1
 
-(pic 19:37)
+(pic 20:23)
 
-- 
+- Try to log back in and it should be disabled 
 
-- 
+-
+
+20:44
+
 <br>
 
 <h2> Final Thoughts </h2>
