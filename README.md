@@ -956,6 +956,7 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 (pic 19:40)
+
 - Navigate back to your chosen random name -> Right Click it -> Click "Disable Account"
 
 - Logout of Client-1
