@@ -963,11 +963,18 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 (pic 20:23)
 
-- Try to log back in and it should be disabled 
+- Try to log back in and it should be disabled
 
--
+<br>
+(pic 20:44)
 
-20:44
+- Now Right Click the user and click on "Enable Account" which should re-enable the user
+
+- For this one go back into DC-1 -> Click start -> Type in "eventvwr.msc"
+
+- This is the  
+
+21:41
 
 <br>
 
