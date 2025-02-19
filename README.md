@@ -830,7 +830,14 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <h3>&#9318; Unlock Accounts, Reset Passwords, Enable & Disable Accounts, Finally Observe Logs  </h3>
 
+<br>
+
+<h4>- Configure Group Policy to lockout the account after 5 attempts</h4>
+
+<br>
+
 (pic 11:30)
+
 - At the start menu type in cmd to bring up "Command Prompt"
 
 <br>
@@ -946,6 +953,10 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
+<h4>-Resetting Passwords </h4>
+
+<br>
+
 - Now we will be Resetting the password
 
 - Go back to DC-1
@@ -955,6 +966,11 @@ This project provides a comprehensive guide to deploying and configuring Active 
 - Navigate to your chosen random name -> Right Click it -> Click "reset password" -> Check mark "Unlock the user's account" if needed, Now you can make the password into anything you want
 
 <br>
+
+<h4>-Disabling and Enabling Accounts </h4>
+
+<br>
+
 (pic 19:40)
 
 - Navigate back to your chosen random name -> Right Click it -> Click "Disable Account"
@@ -969,6 +985,11 @@ This project provides a comprehensive guide to deploying and configuring Active 
 (pic 20:44)
 
 - Now Right Click the user and click on "Enable Account" which should re-enable the user
+<br>
+
+<h4>-Observing Logs </h4>
+
+<br>
 
 (pic 21:41)
 
