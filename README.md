@@ -837,7 +837,7 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 (pic 11:37)
 
-- You can see at the top once your logged in a local profile
+- You can see at the top once you're logged in a local profile
 
 - Click on File Explorer -> Click This PC -> Click Windows (C:) -> Users
 
@@ -983,7 +983,7 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - Press the arrow on the left of Windows Logs to expand it -> Click on "Security" -> Right-click on "Security" -> Select "Find" -> Type in your chosen random name -> press "Find Next"
 
-- From here you can see the actions of the account and when you logged out of it
+- From here you can see the actions of the account and when you log out of it
 
 <br>
 (pic 24:00)
