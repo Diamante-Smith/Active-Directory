@@ -994,19 +994,23 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
-(pic 24:59)
+(pic 24:21)
 
-- Now wants it loads up expand "Windows Logs" again -> Click "Security"
+- Now when it loads up expand "Windows Logs" again -> Click "Security"
 
-- From here then you will see the failures
-
-- 
+- From here then you will see all the failures,  They will be stated as "Audit Failures"
 
 <br>
 
 
+(pic 24:50)
+
+- When you pan to the right, you'll notice the "Event ID" and "Task Category," which detail the exact times of login failures.
+
+- It will also display the successful logins, along with the corresponding IP addresses.
 
 <br>
+
 
 <h2> Final Thoughts </h2>
 
