@@ -970,11 +970,41 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - Now Right Click the user and click on "Enable Account" which should re-enable the user
 
+(pic 21:41)
+
 - For this one go back into DC-1 -> Click start -> Type in "eventvwr.msc"
 
-- This is the  
+- This is the event bureau to see all the authentication logs
 
-21:41
+
+<br>
+
+(pic 21:44)
+
+- Press the arrow on the left of Windows Logs to expand it -> Click on "Security" -> Right-click on "Security" -> Select "Find" -> Type in your chosen random name -> press "Find Next"
+
+- From here you can see the actions of the account and when you logged out of it
+
+<br>
+(pic 24:00)
+
+- Since in this account you are not an admin to see when the failures took place you will run the event viewer as an administrator
+
+- Type back in the start menu "eventvwr.msc" -> Press run as administrator -> Type in the username and password for Jane
+
+<br>
+
+(pic 24:59)
+
+- Now wants it loads up expand "Windows Logs" again -> Click "Security"
+
+- From here then you will see the failures
+
+- 
+
+<br>
+
+
 
 <br>
 
