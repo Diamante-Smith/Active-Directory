@@ -736,7 +736,7 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
-<img width="375" alt="34" src="https://github.com/user-attachments/assets/e66c1e96-d71c-4d94-9953-2ff9913c5e21" />
+<img width="350" src="https://imgur.com/R2sxVPR.png">
 
 
 
@@ -749,8 +749,8 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
+<img width="375" alt="34" src="https://github.com/user-attachments/assets/e66c1e96-d71c-4d94-9953-2ff9913c5e21" />
 
-<img width="350" src="https://imgur.com/R2sxVPR.png">
 
 - This allows normal users to log in to Client-1
 
