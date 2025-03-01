@@ -813,24 +813,30 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
-<img width="299" alt="65" src="https://github.com/user-attachments/assets/b7d0cc0c-c840-4886-b065-8f3c12e69130" />
+<img width="577" alt="Screenshot 2025-03-01 at 5 12 52 PM" src="https://github.com/user-attachments/assets/62796f10-4b40-4bba-b86d-b452c5a5a51c" />
 
-(pic 09:53)
 
 - This is what I chose
 
 - Pick any random name you want and logout of Client-1 A.K.A Jane Doe and log in with the new user name
 
 - When logging back into Client-1 Username is "mydomain.com\ "new user" plus the password is "Password1" with a capital P and try logging in now.
+
 <br>
 
-(pic 10:53)
+<img width="258" alt="Screenshot 2025-03-01 at 5 14 49 PM" src="https://github.com/user-attachments/assets/07add39d-7974-4c44-a980-2b9aec85b5e1" />
+
 
 - When you double-click on your selected user -> Click "Member of:"
 
 - Default they will be listed under Domain Users; we allowed domain users to log into Client-1 using remote desktop
 
 <br>
+
+<img width="276" alt="Screenshot 2025-03-01 at 5 15 56 PM" src="https://github.com/user-attachments/assets/71dec6b2-197b-4565-be43-9903437de34e" />
+
+<br>
+
 
 <h3>&#9318; Unlock Accounts, Reset Passwords, Enable & Disable Accounts, Finally Observe Logs  </h3>
 
