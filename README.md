@@ -266,18 +266,20 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - Click on DNS servers, hit custom, and then paste the IP address of DC-1 that you copied from the Azure portal
 
-- Whenever the computer needs to lookup anything like for instance Google.com, it will look to DC-1 for it
+- Whenever the computer needs to look up anything, for instance, Google.com, it will look to DC-1 for it
 
 - Doing this will allow us to join the domain
 
 - Hit Save
+
+- If that doesn't work because there is some issue when you paste it in, type that number in instead
 
 <br>
 
 <img width="873" alt="Screenshot 2025-01-13 at 1 52 53 PM" src="https://github.com/user-attachments/assets/38fc1b75-1190-445b-a2d2-94177961d56f" />
 
 
-- Then go to your Virtual Machines in Azure click the box next to Client-1 and press restart at the top
+- Then go to your Virtual Machines in Azure, click the box next to Client-1, and press restart at the top
 
 <br>
 
@@ -285,7 +287,7 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
-- From here we will attempt to log in to Client 1 and attempt to ping DC-1's private IP address
+- From here, we will attempt to log in to Client 1 and attempt to ping DC-1's private IP address
   
 
 - Click on Client 1 in Azure and copy its Public IP address
