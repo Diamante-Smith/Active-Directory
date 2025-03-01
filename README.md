@@ -774,13 +774,14 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - link <https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1/>
   
-- Open up, copy, and paste the script that is provided to you
 
 <br>
 
 <img width="42" alt="Screenshot 2025-01-19 at 6 13 44 PM" src="https://github.com/user-attachments/assets/6df065cc-b3bb-458b-9781-1aab73418dbf" />
 
 - At the top of Powershell click on New Script
+
+- Open up the link, copy, and paste the script that is provided to you
 
 - Save it, for me I named it create-users
 
