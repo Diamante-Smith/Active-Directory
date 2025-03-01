@@ -707,7 +707,8 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <h3>&#9316; Setup Remote Desktop for non-administrative users </h3>
 
-<img width="430" alt="23" src="https://github.com/user-attachments/assets/ecef2d9d-e261-4b34-b473-a1cd3e6c6b11" />
+<img width="257" alt="Screenshot 2025-03-01 at 3 20 01 PM" src="https://github.com/user-attachments/assets/c8ef0476-e323-4566-a949-5336aec84f6f" />
+
 
 <br>
 
