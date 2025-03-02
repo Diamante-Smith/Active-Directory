@@ -820,9 +820,9 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - This is what I chose
 
-- Pick any random name you want and logout of Client-1 A.K.A Jane Doe and log in with the new user name
+- Pick any random name you want and log out of Client-1 A.K.A Jane Doe and log in with the new user name
 
-- When logging back into Client-1 Username is "mydomain.com\ "new user" plus the password is "Password1" with a capital P and try logging in now.
+- When logging back into Client-1, the Username is "mydomain.com\ "new user" plus the password is "Password1" with a capital P and try logging in now.
 
 <br>
 
@@ -831,7 +831,7 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - When you double-click on your selected user -> Click "Member of:"
 
-- Default they will be listed under Domain Users; we allowed domain users to log into Client-1 using remote desktop
+- By default, they will be listed under Domain Users; we allowed domain users to log into Client-1 using remote desktop
 
 <br>
 
@@ -844,35 +844,44 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
-<h4>- Configure Group Policy to lockout the account after 5 attempts</h4>
+<h4>- Configure Group Policy to lock out the account after 5 attempts</h4>
 
 <br>
 
-(pic 11:30)
+<img width="654" alt="Screenshot 2025-03-02 at 10 54 42 AM" src="https://github.com/user-attachments/assets/4081eef6-637d-4cd7-965f-cde0e98b0c41" />
 
-- At the start menu type in cmd to bring up "Command Prompt"
+
+- At the start menu, type in cmd to bring up "Command Prompt"
 
 <br>
 
-(pic 11:37)
+<img width="382" alt="Screenshot 2025-03-02 at 10 55 06 AM" src="https://github.com/user-attachments/assets/ccd9632a-5c5d-4e9a-a48e-97bae12a03b6" />
+
 
 - You can see at the top once you're logged in a local profile
+
+<br>
+
+<img width="289" alt="Screenshot 2025-03-02 at 10 56 43 AM" src="https://github.com/user-attachments/assets/e48404c9-5ac6-460b-a6c7-c3c7600abe28" />
+
 
 - Click on File Explorer -> Click This PC -> Click Windows (C:) -> Users
 
 <br>
 
-(pic 11:57)
+<img width="158" alt="Screenshot 2025-03-02 at 10 57 00 AM" src="https://github.com/user-attachments/assets/d002357c-3f6b-47ef-8469-944e953e655c" />
 
-- You will see in that folder the profile of the created user you chose from the script since we logged in with that profile along with others we logged into like jane_admin, and labuser
+
+- You will see in that folder the profile of the created user you chose from the script since we logged in with that profile along with others we logged into like "jane_admin and labuser"
 
 - The Script will keep going until it creates 10,000 users
 
 <br>
 
-(pic 3:31)
+<img width="140" alt="Screenshot 2025-03-02 at 11 08 54 AM" src="https://github.com/user-attachments/assets/ce433351-b206-4544-9b74-0cb72a2e2fc9" />
 
-- First, pick any easy name from the _EMPLOYEES folder remember the password is "Password1" and open up the remote desktop application 
+
+- First, pick any easy name from the _EMPLOYEES folder remember, the password is "Password1" and open up the remote desktop application 
 
 - Get and copy Client-1's public IP address from Azure
 
