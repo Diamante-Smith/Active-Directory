@@ -597,7 +597,8 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - Logout of DC-1 and sign back in with Jane Doe’s credentials
 
-<img width="430" alt="23" src="https://github.com/user-attachments/assets/82ef4c94-c830-4bd3-9b75-b62c829b07c1" />
+<img width="436" alt="Screenshot 2025-03-02 at 10 46 56 AM" src="https://github.com/user-attachments/assets/9a70a290-bb3f-4d4f-91d1-70c6c33ffe8c" />
+
 
 
 
@@ -707,7 +708,8 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <h3>&#9316; Setup Remote Desktop for non-administrative users </h3>
 
-<img width="257" alt="Screenshot 2025-03-01 at 3 20 01 PM" src="https://github.com/user-attachments/assets/c8ef0476-e323-4566-a949-5336aec84f6f" />
+<img width="436" alt="Screenshot 2025-03-02 at 10 46 56 AM" src="https://github.com/user-attachments/assets/dbf5751d-8561-4cdc-bf69-6942cf97ef89" />
+
 
 
 <br>
