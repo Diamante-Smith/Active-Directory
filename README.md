@@ -930,13 +930,15 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
-(10:05)
+<img width="230" alt="Screenshot 2025-03-02 at 11 23 23 AM" src="https://github.com/user-attachments/assets/ea42f67b-9d1d-4918-880f-f726ca19fd72" />
+
 
 - Click on Lockout duration -> Set the timer for 30 minutes
 
 <br>
 
-(pic 10:34)
+<img width="515" alt="Screenshot 2025-03-02 at 11 23 41 AM" src="https://github.com/user-attachments/assets/589812e3-2e31-48f4-9298-7476b722406d" />
+
 
 - Account Lockout Threshold A.K.A how many times you can attempt to log in before it gets locked out
 
