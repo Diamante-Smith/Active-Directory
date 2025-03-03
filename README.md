@@ -893,18 +893,26 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - *However if you logged in and you were able to get in with no problem after putting the wrong password in a couple of times then you probably don't have an account lockout policy set in Active Directory
 
-  (pic 7:30)
+<img width="298" alt="Screenshot 2025-03-02 at 11 13 30 AM" src="https://github.com/user-attachments/assets/446199be-eab4-49f5-bb78-1e7969651ca6" />
+
   
 - We will open up Group Policy Management on the Domain Controller, right-click the Start menu hit run then type gpmc.msc -> click enter
 
-  (pic 7:42)
+<img width="514" alt="Screenshot 2025-03-02 at 11 14 08 AM" src="https://github.com/user-attachments/assets/bd62b8aa-e5e9-4227-9d7e-e2b73d6939e3" />
+
 
 - This is the Group Policy Management Console
 
 <br>
 
 
- (pic 8:23)
+<img width="257" alt="Screenshot 2025-03-02 at 11 18 31 AM" src="https://github.com/user-attachments/assets/38389752-86a2-4c42-8522-76a786442aad" />
+
+<img width="184" alt="Screenshot 2025-03-02 at 11 19 10 AM" src="https://github.com/user-attachments/assets/7785e686-1802-439f-990c-9c716af6c25d" />
+
+
+
+
  
 - Within that, there should be a Group Policy Object named "Default Domain Policy"
 
@@ -912,7 +920,9 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 
 <br>
-  (pic 8:54)
+
+<img width="894" alt="Screenshot 2025-03-02 at 11 21 10 AM" src="https://github.com/user-attachments/assets/2d08fe43-e4b6-427b-a926-e285744aed73" />
+
 
 - Next, we will be navigating to the account Lockout Policy settings
 
