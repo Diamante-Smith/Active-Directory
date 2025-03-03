@@ -936,6 +936,9 @@ This project provides a comprehensive guide to deploying and configuring Active 
 - Click on Lockout duration -> Set the timer for 30 minutes
 
 <br>
+<img width="269" alt="Screenshot 2025-03-02 at 11 25 33 AM" src="https://github.com/user-attachments/assets/6714b714-e59b-4558-8269-a5e6a53a4534" />
+
+<br>
 
 <img width="515" alt="Screenshot 2025-03-02 at 11 23 41 AM" src="https://github.com/user-attachments/assets/589812e3-2e31-48f4-9298-7476b722406d" />
 
@@ -948,11 +951,20 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
+<img width="436" alt="Screenshot 2025-03-02 at 10 46 56 AM" src="https://github.com/user-attachments/assets/a7737e09-4a1b-474d-865c-d8960657bf0f" />
+
+
 - Log back into client-1 this time with jane_admin and the password you wrote
 
 <br>
 
-(pic 12:54)
+<img width="420" alt="Screenshot 2025-03-02 at 2 10 37 PM" src="https://github.com/user-attachments/assets/bbdd78d2-7518-4a52-ae5f-3f7933b11f6d" />
+
+<br>
+
+<img width="420" alt="Screenshot 2025-03-02 at 2 10 37 PM" src="https://github.com/user-attachments/assets/489615b7-8874-4141-a610-a6a742787fda" />
+
+
 
 - After logging in we will be forcing the computer to accept the new policy
 
@@ -964,23 +976,55 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
-(pic 14:33)
+<img width="305" alt="Screenshot 2025-03-02 at 2 13 28 PM" src="https://github.com/user-attachments/assets/2971d287-cf6f-4e4e-8887-7b3e05506e45" />
+<br>
+
+<img width="275" alt="Screenshot 2025-03-02 at 2 11 21 PM" src="https://github.com/user-attachments/assets/5109b42e-8f99-4ce5-ba6c-d92c911a6620" />
+
 
 - Re-open the command prompt but this time click on run as an Administrator so that we can see if the policy was applied
 
+<br>
+
+<img width="582" alt="Screenshot 2025-03-02 at 2 15 30 PM" src="https://github.com/user-attachments/assets/58b6bd71-7135-49d8-bb56-bfa6042fa2f7" />
+
+
 - Type in "gpresult /r" under "Computer settings" and see the last time the policy was applied
 
-(pic 15:42)
+<br>
+
+<img width="255" alt="Screenshot 2025-03-02 at 2 18 23 PM" src="https://github.com/user-attachments/assets/e2565fc2-a205-4a36-ab3e-b55422a9a22d" />
+
 
 - Now try to log into client-1 with your selected random name and type in the password wrong over 5 times
 
 <br>
 
-(pic 16:14)
+<img width="518" alt="Screenshot 2025-03-02 at 2 19 40 PM" src="https://github.com/user-attachments/assets/e0e56a1d-9ef6-4a1f-8d08-be13bad75676" />
+
+<br>
+
+<img width="234" alt="Screenshot 2025-03-02 at 2 19 52 PM" src="https://github.com/user-attachments/assets/176115e3-bee6-4f3a-9620-6901052d21f2" />
+
+<br>
+
+<img width="330" alt="Screenshot 2025-03-02 at 2 27 07 PM" src="https://github.com/user-attachments/assets/d95bc2a8-d7e4-4c79-bf76-bb1203c5bfc9" />
+
+<br>
+
+
+
+
+
 
 - Now go back into the Domain Controller -> Right Click "mydomain.com" -> Click "Find" -> and search for that randomly named account you selected
 
+
+
 - Double Click the account -> Click "Account" -> Check mark "Unlock Account" -> Press Apply
+
+<img width="342" alt="Screenshot 2025-03-02 at 2 28 29 PM" src="https://github.com/user-attachments/assets/62a641f0-a084-40b2-92f8-99c1c5fc31c0" />
+<br>
 
 - Then re-attempt to log back into the account but with the right password this time
 
