@@ -1034,13 +1034,18 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
-- Now we will be Resetting the password
+
+- Now we will be resetting the password
 
 - Go back to DC-1
 
-(pic 18:36)
+<img width="368" alt="Screenshot 2025-03-02 at 2 30 15 PM" src="https://github.com/user-attachments/assets/7998e054-f509-4beb-b695-734eed0f34a4" />
+<br>
 
-- Navigate to your chosen random name -> Right Click it -> Click "reset password" -> Check mark "Unlock the user's account" if needed, Now you can make the password into anything you want
+<img width="379" alt="Screenshot 2025-03-02 at 2 30 51 PM" src="https://github.com/user-attachments/assets/2297d025-bf92-4507-9d14-42b9658d64eb" />
+
+
+- Navigate to your chosen random name -> Right Click it -> Click "reset password" -> Check mark "Unlock the user's account" if needed, now you can make the password into anything you want
 
 <br>
 
@@ -1048,18 +1053,25 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
-(pic 19:40)
+<img width="266" alt="Screenshot 2025-03-02 at 2 52 15 PM" src="https://github.com/user-attachments/assets/9a439d19-7b7d-4ca9-ae6a-d5b92df26e21" />
 
-- Navigate back to your chosen random name -> Right Click it -> Click "Disable Account"
+
+- Navigate back to your chosen random name -> Right-click it -> Click "Disable Account"
 
 - Logout of Client-1
 
-(pic 20:23)
+<br>
 
-- Try to log back in and it should be disabled
+<img width="261" alt="Screenshot 2025-03-02 at 3 11 44 PM" src="https://github.com/user-attachments/assets/010b9153-b593-40db-8a93-68b5eafcd1f5" />
+
+
+- Try to log back in, and it should be disabled
 
 <br>
-(pic 20:44)
+
+
+<img width="304" alt="Screenshot 2025-03-02 at 3 13 53 PM" src="https://github.com/user-attachments/assets/f2e0d29e-e783-418a-aa2c-33ec4f22028f" />
+
 
 - Now Right Click the user and click on "Enable Account" which should re-enable the user
 <br>
@@ -1068,25 +1080,32 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
-(pic 21:41)
+<img width="285" alt="Screenshot 2025-03-02 at 3 16 20 PM" src="https://github.com/user-attachments/assets/ba9b5577-889b-4864-9dbd-8f02791a7e58" />
+
 
 - For this one go back into DC-1 -> Click start -> Type in "eventvwr.msc"
+
+<br>
+
+<img width="783" alt="Screenshot 2025-03-02 at 3 17 32 PM" src="https://github.com/user-attachments/assets/bf137cfc-b16a-465c-878c-ec148930e46c" />
+
 
 - This is the event bureau to see all the authentication logs
 
 
 <br>
 
-(pic 21:44)
+<img width="332" alt="Screenshot 2025-03-02 at 3 18 59 PM" src="https://github.com/user-attachments/assets/020bcac8-939d-4d31-ab16-dce1d7e88119" />
+
 
 - Press the arrow on the left of Windows Logs to expand it -> Click on "Security" -> Right-click on "Security" -> Select "Find" -> Type in your chosen random name -> press "Find Next"
 
-- From here you can see the actions of the account and when you log out of it
+- From here, you can see the actions of the account, and when you log out of it
 
 <br>
 (pic 24:00)
 
-- Since in this account you are not an admin to see when the failures took place you will run the event viewer as an administrator
+- Since in this account you are not an admin to see when the failures took place, you will run the event viewer as an administrator
 
 - Type back in the start menu "eventvwr.msc" -> Press run as administrator -> Type in the username and password for Jane
 
