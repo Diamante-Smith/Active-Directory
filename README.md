@@ -893,7 +893,7 @@ This project provides a comprehensive guide to deploying and configuring Active 
 - Connect to Client-1 with the random name you selected, going in this order Username: mydomain\ "random name" for the password put in any non-correct password a couple of times
 
 <br>
-<img width="440" alt="Screenshot 2025-03-04 at 3 49 56 PM" src="https://github.com/user-attachments/assets/ebf6ee87-3135-4dfd-b82b-a9a8357a0fd9" />
+<img width="255" alt="Screenshot 2025-03-02 at 2 18 23 PM" src="https://github.com/user-attachments/assets/e2565fc2-a205-4a36-ab3e-b55422a9a22d" />
 
 - The account will then be locked out when you try to sign in as you see here if you have group policy arleady configured too
 
