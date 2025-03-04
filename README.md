@@ -885,13 +885,19 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - Get and copy Client-1's public IP address from Azure
 
-(pic 4:17)
+<img width="440" alt="Screenshot 2025-03-04 at 3 49 20 PM" src="https://github.com/user-attachments/assets/a6e5a4f3-5699-4b41-af8a-722077defa63" />
+
+<br>
+
 
 - Connect to Client-1 with the random name you selected, going in this order Username: mydomain\ "random name" for the password put in any non-correct password a couple of times
 
-- The account will then be locked out when you try to sign in
+<br>
+<img width="440" alt="Screenshot 2025-03-04 at 3 49 56 PM" src="https://github.com/user-attachments/assets/ebf6ee87-3135-4dfd-b82b-a9a8357a0fd9" />
 
-- *However if you logged in and you were able to get in with no problem after putting the wrong password in a couple of times then you probably don't have an account lockout policy set in Active Directory
+- The account will then be locked out when you try to sign in as you see here if you have group policy arleady configured too
+
+- *However if you logged in and you were able to get in with no problem after putting the wrong password in a couple of times, then you probably don't have an account lockout policy set in Active Directory
 
 <img width="298" alt="Screenshot 2025-03-02 at 11 13 30 AM" src="https://github.com/user-attachments/assets/446199be-eab4-49f5-bb78-1e7969651ca6" />
 
@@ -916,7 +922,7 @@ This project provides a comprehensive guide to deploying and configuring Active 
  
 - Within that, there should be a Group Policy Object named "Default Domain Policy"
 
-- Right Click on it -> Press Edit
+- Right-click on it -> Press Edit
 
 
 <br>
@@ -1103,24 +1109,38 @@ This project provides a comprehensive guide to deploying and configuring Active 
 - From here, you can see the actions of the account, and when you log out of it
 
 <br>
-(pic 24:00)
+<img width="603" alt="Screenshot 2025-03-02 at 3 26 22 PM" src="https://github.com/user-attachments/assets/f896e0a8-6b86-4f42-a598-9b9bc9568cd4" />
+
 
 - Since in this account you are not an admin to see when the failures took place, you will run the event viewer as an administrator
+
+
+<img width="369" alt="Screenshot 2025-03-02 at 3 26 41 PM" src="https://github.com/user-attachments/assets/76472a87-13ab-4e54-931e-c0c44f87a7a6" />
+
 
 - Type back in the start menu "eventvwr.msc" -> Press run as administrator -> Type in the username and password for Jane
 
 <br>
 
-(pic 24:21)
+<img width="401" alt="Screenshot 2025-03-02 at 3 34 30 PM" src="https://github.com/user-attachments/assets/b3cafee2-0741-4356-b767-663babfc5d89" />
+
+
+
 
 - Now when it loads up expand "Windows Logs" again -> Click "Security"
 
-- From here then you will see all the failures,  They will be stated as "Audit Failures"
+
+
+<img width="513" alt="Screenshot 2025-03-02 at 3 34 54 PM" src="https://github.com/user-attachments/assets/dffab5d1-6eb6-4f14-bea6-789c94377249" />
+
+
+- From here, you will see all the failures, They will be stated as "Audit Failures"
 
 <br>
 
 
-(pic 24:50)
+<img width="388" alt="Screenshot 2025-03-02 at 3 36 32 PM" src="https://github.com/user-attachments/assets/69a40143-c7f9-4517-a77e-2b7db6868926" />
+
 
 - When you pan to the right, you'll notice the "Event ID" and "Task Category," which detail the exact times of login failures.
 
