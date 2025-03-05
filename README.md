@@ -1018,10 +1018,7 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
-
-
-
-
+  
 
 - Now go back into the Domain Controller -> Right Click "mydomain.com" -> Click "Find" -> and search for that randomly named account you selected
 
@@ -1036,11 +1033,10 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
-<h4>-Resetting Passwords </h4>
+<h4>- Resetting Passwords </h4>
 
 <br>
-
-
+                                                    
 - Now we will be resetting the password
 
 - Go back to DC-1
@@ -1055,7 +1051,7 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <br>
 
-<h4>-Disabling and Enabling Accounts </h4>
+<h4>- Disabling and Enabling Accounts </h4>
 
 <br>
 
@@ -1082,7 +1078,7 @@ This project provides a comprehensive guide to deploying and configuring Active 
 - Now Right Click the user and click on "Enable Account" which should re-enable the user
 <br>
 
-<h4>-Observing Logs </h4>
+<h4>- Observing Logs </h4>
 
 <br>
 
@@ -1114,6 +1110,8 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 - Since in this account you are not an admin to see when the failures took place, you will run the event viewer as an administrator
 
+<br>
+
 
 <img width="369" alt="Screenshot 2025-03-02 at 3 26 41 PM" src="https://github.com/user-attachments/assets/76472a87-13ab-4e54-931e-c0c44f87a7a6" />
 
@@ -1128,6 +1126,8 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 
 - Now when it loads up expand "Windows Logs" again -> Click "Security"
+
+<br>
 
 
 
@@ -1151,8 +1151,12 @@ This project provides a comprehensive guide to deploying and configuring Active 
 
 <h2> Final Thoughts </h2>
 
-<p>
-We've successfully completed the Active Directory Deployment and Configuration phase. By configuring Active Directory on the Domain Controller, we established our infrastructure, created a forest and administrator account, and integrated Client-1 into the domain. </p>
+
+In this project, we successfully deployed and configured an Active Directory environment in Microsoft Azure, transforming a virtual network into a fully managed domain infrastructure. The step-by-step process covered creating a domain controller, setting up DNS services, and configuring both administrative and standard user accounts. We also implemented security measures such as account lockout policies, static IP assignments, and secure remote access for non-administrative users.
+
+By integrating Client-1 into the domain and managing permissions through Active Directory, we established a centralized system for authentication and access control. Additionally, we explored user management tasks, including creating, disabling, and resetting user accounts, as well as monitoring security logs to ensure compliance and security.
+
+These hands-on skills demonstrate your ability to manage Active Directory environments, troubleshoot network configurations, and uphold security best practices—key competencies for IT support, system administration, and network management roles. This project not only showcases your technical proficiency but also your ability to design and manage scalable IT solutions in a cloud-based environment.
 
 
 
